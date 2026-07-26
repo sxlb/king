@@ -300,3 +300,81 @@ function joe_keyboard_shortcode($content)
         return '<kbd class="joe-kbd">' . joe_esc($m[1]) . '</kbd>';
     }, $content);
 }
+
+/**
+ * [lock] 短代码 — 文章加密阅读
+ * 用法: [lock password="123456"]加密内容[/lock]
+ * 用户输入正确密码后显示内容，使用 session 记住解锁状态
+ */
+function joe_lock_shortcode($content)
+{
+    if (strpos((string) $content, '[lock') === false) return $content;
+    
+    return preg_replace_callback(
+        '/\[lock\s+password="([^"]+)"\s*\](.*?)\[\/lock\]/is',
+        function ($m) {
+            $password = $m[1];
+            $hiddenContent = $m[2];
+            $lockId = 'joe_lock_' . md5($password . $hiddenContent);
+            
+            // 检查是否已解锁
+            $unlocked = false;
+            if (session_status() === PHP_SESSION_NONE) {
+                @session_start([
+                    'cookie_httponly' => true,
+                    'cookie_secure' => isset($_SERVER['HTTPS']),
+                    'cookie_samesite' => 'Lax',
+                ]);
+            }
+            if (isset($_SESSION[$lockId]) && $_SESSION[$lockId] === true) {
+                $unlocked = true;
+            }
+            
+            // 检查 POST 提交的密码
+            if (!$unlocked && isset($_POST['joe_lock_pwd']) && isset($_POST['joe_lock_id'])) {
+                if ($_POST['joe_lock_id'] === $lockId && $_POST['joe_lock_pwd'] === $password) {
+                    $_SESSION[$lockId] = true;
+                    $unlocked = true;
+                }
+            }
+            
+            if ($unlocked) {
+                return '<div class="joe-lock is-unlocked"><div class="joe-lock__badge">🔓 已解锁</div>' . $hiddenContent . '</div>';
+            }
+            
+            $html = '<div class="joe-lock">';
+            $html .= '<div class="joe-lock__inner">';
+            $html .= '<div class="joe-lock__icon"><svg viewBox="0 0 24 24" width="40" height="40"><rect x="5" y="11" width="14" height="10" rx="2" stroke="currentColor" stroke-width="2" fill="none"/><path d="M8 11V7a4 4 0 018 0v4" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg></div>';
+            $html .= '<div class="joe-lock__title">此内容已加密</div>';
+            $html .= '<div class="joe-lock__desc">请输入密码后查看</div>';
+            $html .= '<form class="joe-lock__form" method="post">';
+            $html .= '<input type="hidden" name="joe_lock_id" value="' . htmlspecialchars($lockId) . '">';
+            $html .= '<input type="password" name="joe_lock_pwd" class="joe-lock__input" placeholder="请输入密码" required>';
+            $html .= '<button type="submit" class="joe-lock__btn">确认</button>';
+            $html .= '</form>';
+            $html .= '</div></div>';
+            
+            return $html;
+        },
+        $content
+    );
+}
+
+/**
+ * [mermaid] 短代码 — Mermaid 思维导图/流程图
+ * 用法: [mermaid]graph TD; A-->B; B-->C;[/mermaid]
+ */
+function joe_mermaid_shortcode($content)
+{
+    if (strpos((string) $content, '[mermaid]') === false) return $content;
+    
+    return preg_replace_callback(
+        '/\[mermaid\](.*?)\[\/mermaid\]/is',
+        function ($m) {
+            $code = htmlspecialchars_decode(trim($m[1]));
+            $id = 'mermaid_' . substr(md5($code), 0, 8);
+            return '<div class="joe-mermaid"><div class="mermaid" id="' . $id . '">' . $code . '</div></div>';
+        },
+        $content
+    );
+}

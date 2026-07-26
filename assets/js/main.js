@@ -2260,3 +2260,49 @@ var initKingJoe = (function () {
         });
     })();
 
+    // ▸ 文章朗读
+    (function initTTS() {
+        var ttsBtn = document.getElementById('joe-tts-btn');
+        if (!ttsBtn) return;
+        var speaking = false;
+        var utterance = null;
+        
+        function stop() {
+            if (utterance) {
+                window.speechSynthesis.cancel();
+                utterance = null;
+            }
+            speaking = false;
+            ttsBtn.classList.remove('is-speaking');
+            var text = ttsBtn.querySelector('.joe-tts-btn__text');
+            if (text) text.textContent = '朗读';
+        }
+        
+        ttsBtn.addEventListener('click', function () {
+            if (speaking) {
+                stop();
+                return;
+            }
+            if (!('speechSynthesis' in window)) {
+                alert('您的浏览器不支持语音朗读');
+                return;
+            }
+            var article = document.querySelector('.joe-content') || document.querySelector('.joe-article__content');
+            if (!article) return;
+            var text = article.textContent.replace(/\s+/g, ' ').trim();
+            if (!text) return;
+            
+            utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'zh-CN';
+            utterance.rate = 0.9;
+            utterance.onend = function () { stop(); };
+            utterance.onerror = function () { stop(); };
+            
+            speaking = true;
+            ttsBtn.classList.add('is-speaking');
+            var label = ttsBtn.querySelector('.joe-tts-btn__text');
+            if (label) label.textContent = '停止';
+            window.speechSynthesis.speak(utterance);
+        });
+    })();
+

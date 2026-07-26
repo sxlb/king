@@ -60,6 +60,12 @@
                                 <svg viewBox="0 0 24 24" width="18" height="18"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2" fill="none"/><path d="M3 16h18M3 8h18" stroke="currentColor" stroke-width="1.5"/></svg>
                                 <span>沉浸阅读</span>
                             </button>
+                            <?php if (joe_get('ttsEnable') === '1'): ?>
+                            <button class="joe-tts-btn" id="joe-tts-btn" title="朗读文章" aria-label="朗读文章">
+                                <svg class="joe-tts-btn__icon" viewBox="0 0 24 24" width="18" height="18"><path d="M11 5L6 9H2v6h4l5 4V5z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/><path d="M15.5 8.5a4.5 4.5 0 010 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M18.5 5.5a8.5 8.5 0 010 13" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+                                <span class="joe-tts-btn__text">朗读</span>
+                            </button>
+                            <?php endif; ?>
                         </div>
                     </div>
                     <div class="joe-article__meta">

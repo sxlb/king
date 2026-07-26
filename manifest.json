@@ -1,0 +1,10 @@
+{
+    "name": "<?php $this->options->title(); ?>",
+    "short_name": "<?php $this->options->title(); ?>",
+    "description": "<?php echo joe_esc($this->options->description); ?>",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f4f5f7",
+    "theme_color": "#4990e2",
+    "icons": []
+}

@@ -202,6 +202,10 @@
 <?php endif; ?>
 <script src="<?php echo joe_asset('lib/prism/prism.js'); ?>?v=1.0.0"></script>
 <?php endif; ?>
+<?php if (joe_get('mermaidEnable') === '1'): ?>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({ startOnLoad: true, theme: document.body.classList.contains('is-dark') ? 'dark' : 'default' });</script>
+<?php endif; ?>
 <?php if (joe_get('analyticsCode')): ?>
 <!-- 统计代码 -->
 <?php echo joe_get('analyticsCode'); ?>
@@ -227,6 +231,13 @@
     box.addEventListener("click",function(){box.style.display="none"});
     document.body.appendChild(box);
 })();
+</script>
+<?php endif; ?>
+<?php if (joe_get('pwaEnable') === '1'): ?>
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('<?php $this->options->themeUrl(); ?>/sw.js', { scope: '/' });
+}
 </script>
 <?php endif; ?>
 </body>

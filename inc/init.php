@@ -60,6 +60,10 @@ function themeInit($archive)
         $archive->content = joe_lanzou_shortcode($archive->content);
         // 广告短代码
         $archive->content = joe_ad_shortcode($archive->content);
+        // 文章加密阅读
+        $archive->content = joe_lock_shortcode($archive->content);
+        // Mermaid 图表
+        $archive->content = joe_mermaid_shortcode($archive->content);
         // 增强短代码
         $archive->content = joe_tips_shortcode($archive->content);
         $archive->content = joe_collapse_shortcode($archive->content);
@@ -226,6 +230,11 @@ function themeConfig($form)
     $codeLineNumbers = new Typecho_Widget_Helper_Form_Element_Radio('codeLineNumbers',
         ['0' => _t('关闭'), '1' => _t('开启')], '1', _t('代码行号'), _t('配合代码高亮使用，仅文章页生效'));
     $form->addInput($codeLineNumbers);
+
+    // Mermaid 图表
+    $mermaidEnable = new Typecho_Widget_Helper_Form_Element_Radio('mermaidEnable',
+        ['0' => _t('关闭'), '1' => _t('开启')], '0', _t('Mermaid 流程图'), _t('启用 [mermaid] 短代码，支持流程图、时序图、类图等（https://mermaid.js.org）'));
+    $form->addInput($mermaidEnable);
 
     $linksData = new Typecho_Widget_Helper_Form_Element_Textarea('linksData', null,
         "友情站点\n".
@@ -634,15 +643,29 @@ function themeConfig($form)
     $doubanTitle = new Typecho_Widget_Helper_Form_Element_Text('doubanTitle', null, '豆瓣清单', _t('豆瓣页面标题'), _t('显示在页面顶部的标题'));
     $form->addInput($doubanTitle);
 
+    // ---- 推文/说说 ----
+    $microblogCat = new Typecho_Widget_Helper_Form_Element_Text('microblogCategory', null, 'microblog', _t('说说分类别名'), _t('用于推文/说说页的分类 slug，默认 microblog。在后台创建同名分类后将自动展示'));
+    $form->addInput($microblogCat);
+
     // ---- 移动端悬浮操作栏 ----
     $mobileActionBar = new Typecho_Widget_Helper_Form_Element_Radio('mobileActionBar',
         ['0' => _t('关闭'), '1' => _t('开启')], '1', _t('移动端悬浮操作栏'), _t('文章页底部固定操作栏（点赞/评论/分享/回顶），仅移动端显示'));
     $form->addInput($mobileActionBar);
 
+    // ---- 文章朗读 ----
+    $ttsEnable = new Typecho_Widget_Helper_Form_Element_Radio('ttsEnable',
+        ['0' => _t('关闭'), '1' => _t('启用')], '0', _t('文章朗读'), _t('文章页显示朗读按钮，使用浏览器内置语音合成（需现代浏览器）'));
+    $form->addInput($ttsEnable);
+
     // ---- 字体缩放 ----
     $fontSizeAdjust = new Typecho_Widget_Helper_Form_Element_Radio('fontSizeAdjust',
         ['0' => _t('关闭'), '1' => _t('开启')], '1', _t('文章字体缩放'), _t('文章页支持读者调节正文字体大小（A⁻/A/A⁺）'));
     $form->addInput($fontSizeAdjust);
+
+    // ---- PWA 离线支持 ----
+    $pwaEnable = new Typecho_Widget_Helper_Form_Element_Radio('pwaEnable',
+        ['1' => _t('启用'), '0' => _t('关闭')], '0', _t('PWA 离线支持'), _t('启用 Service Worker 离线缓存和 PWA 安装支持'));
+    $form->addInput($pwaEnable);
 
     // ---- 统计代码 ----
     $analyticsCode = new Typecho_Widget_Helper_Form_Element_Textarea('analyticsCode', null, '', _t('统计代码'), _t('Google Analytics、百度统计等，会自动插入到页脚 &lt;/body&gt; 前'));
@@ -652,6 +675,15 @@ function themeConfig($form)
     $sslIcon = new Typecho_Widget_Helper_Form_Element_Textarea('sslIcon', null, '', _t('SSL认证图标'), _t('页脚显示的安全认证图标HTML代码，如 TrustAsia/沃通等'));
     $form->addInput($sslIcon);
 
+    $form->addInput([
+        'name' => 'updateCheck',
+        'type' => 'radio',
+        'label' => '自动检测更新',
+        'description' => '每12小时从GitHub检测主题新版本',
+        'default' => '1',
+        'options' => ['1' => '启用', '0' => '关闭'],
+    ]);
+
     // 显示更新检测结果
     if (joe_get('updateCheck') === '1' && function_exists('joe_check_update')) {
         joe_check_update();
@@ -659,39 +691,74 @@ function themeConfig($form)
 }
 
 /**
- * 检测主题更新
+ * 检测主题更新（从 GitHub Releases 获取最新版本）
  */
 function joe_check_update()
 {
-    if (joe_get('updateCheck') !== '1') return;
-    $current = '1.0.0';
-    $updateUrl = 'https://raw.githubusercontent.com/example/kingjoe/main/version.json';
-    $cacheKey = 'joe_update_check';
-    $cache = Typecho_Widget::widget('Widget_Options')->{$cacheKey};
-    $cacheTime = Typecho_Widget::widget('Widget_Options')->{$cacheKey . '_time'} ?? 0;
-    if ($cache && (time() - $cacheTime) < 86400) {
-        $data = json_decode($cache, true);
-    } else {
-        $ctx = stream_context_create(['http' => ['timeout' => 5]]);
-        $res = @file_get_contents($updateUrl, false, $ctx);
-        $data = $res ? json_decode($res, true) : null;
-        try {
-            $db = Typecho_Db::get();
-            $db->query($db->insert('table.options')
-                ->rows(['name' => $cacheKey, 'user' => 0, 'value' => $res ?: ''])
-                ->onDuplicateKeyUpdate(['value' => $res ?: '']));
-        } catch (Exception $e) {}
-    }
-    if (!$data || empty($data['version'])) return;
-    if (version_compare($data['version'], $current, '>')) {
-        echo '<div class="message notice" style="margin:12px 0"><strong>KingJoe 新版本 ' . joe_esc($data['version']) . ' 可用！</strong> ';
-        if (!empty($data['url'])) {
-            echo '<a href="' . joe_esc($data['url']) . '" target="_blank">前往下载</a>';
+    if (!joe_get('updateCheck')) return;
+    
+    $currentVersion = '1.0.7';
+    $repo = 'sxlb/king';
+    $transientKey = 'joe_update_check';
+    
+    // 缓存 12 小时
+    $cached = get_transient($transientKey);
+    if ($cached !== false) {
+        if (!empty($cached['latest']) && version_compare($cached['latest'], $currentVersion, '>')) {
+            joe_show_update_notice($cached);
         }
-        echo '</div>';
-    } else {
-        echo '<div class="message notice" style="margin:12px 0">当前 KingJoe ' . $current . ' 已是最新版本 ✓</div>';
+        return;
     }
+    
+    $result = joe_http_get("https://api.github.com/repos/{$repo}/releases/latest");
+    if (!$result) return;
+    
+    $data = @json_decode($result, true);
+    if (!$data || empty($data['tag_name'])) return;
+    
+    $latestVersion = ltrim($data['tag_name'], 'vV');
+    $info = [
+        'latest' => $latestVersion,
+        'url' => $data['html_url'] ?? "https://github.com/{$repo}/releases",
+        'body' => $data['body'] ?? '',
+        'published' => $data['published_at'] ?? '',
+    ];
+    
+    set_transient($transientKey, $info, 43200); // 12小时
+    
+    if (version_compare($latestVersion, $currentVersion, '>')) {
+        joe_show_update_notice($info);
+    }
+}
+
+function joe_show_update_notice($info) {
+    if (!class_exists('Widget_Notice')) return;
+    $msg = sprintf(
+        'KingJoe 主题有新版本 <strong>v%s</strong> 可用！<a href="%s" target="_blank">查看详情</a> | 当前版本 v1.0.7',
+        htmlspecialchars($info['latest']),
+        htmlspecialchars($info['url'])
+    );
+    Widget_Notice::alloc()->set($msg, 'notice');
+}
+
+// 简易 transient 缓存（兼容无 memcached/redis 环境）
+function get_transient($key) {
+    $file = __DIR__ . '/../../cache/' . md5($key) . '.transient';
+    if (!file_exists($file)) return false;
+    $data = @unserialize(file_get_contents($file));
+    if (!$data || $data['expires'] < time()) {
+        @unlink($file);
+        return false;
+    }
+    return $data['value'];
+}
+
+function set_transient($key, $value, $ttl = 3600) {
+    $dir = __DIR__ . '/../../cache';
+    if (!is_dir($dir)) @mkdir($dir, 0755, true);
+    $file = $dir . '/' . md5($key) . '.transient';
+    $data = ['value' => $value, 'expires' => time() + $ttl];
+    file_put_contents($file, serialize($data), LOCK_EX);
 }
 function joe_install()
 {

@@ -5,102 +5,154 @@
  *
  * @package     KingJoe
  * @template    Archive
- * @description 文章归档页、时间轴视图、搜索整合
+ * @description 文章归档页、时间轴视图、贡献日历、搜索整合
  * @version     1.0.7
  * @link        https://github.com/sxlb/king
  */
 ?>
 <?php $this->need('header.php'); ?>
 
+<?php
+// Fetch all post dates for the heatmap
+$db = Typecho_Db::get();
+$allPosts = $db->fetchAll($db->select('created')->from('table.contents')
+    ->where('type = ?', 'post')
+    ->where('status = ?', 'publish')
+    ->order('created', Typecho_Db::SORT_ASC));
+$postDates = [];
+foreach ($allPosts as $p) {
+    $d = date('Y-m-d', $p['created']);
+    $postDates[$d] = ($postDates[$d] ?? 0) + 1;
+}
+$maxCount = $postDates ? max($postDates) : 1;
+?>
+
 <main class="joe-container" id="main">
     <div class="joe-main__wrap">
         <div class="joe-main">
-            <section class="joe-postlist">
-                <div class="joe-section__head">
-                    <h2 class="joe-section__title">
-                        <span class="joe-section__bar"></span>
-                        <?php $this->archiveTitle([
-                            'category' => _t('分类：%s'),
-                            'tag'      => _t('标签：%s'),
-                            'search'   => _t('搜索：%s'),
-                            'author'   => _t('作者：%s'),
-                            'date'     => _t('归档：%s'),
-                        ], '', ''); ?>
-                    </h2>
-                </div>
 
-                <?php if ($this->have()):
-                    // 搜索结果显示统计
-                    if ($this->is('search')): ?>
-                    <div class="joe-search-info">搜索 "<b><?php echo isset($_GET['s']) ? htmlspecialchars($_GET['s']) : (isset($_POST['s']) ? htmlspecialchars($_POST['s']) : ''); ?></b>"，找到 <b><?php echo $this->getTotal(); ?></b> 条结果</div>
-                    <?php endif;
-
-                    $isTimeline = $this->is('archive') && !$this->is('category') && !$this->is('tag') && !$this->is('search') && !$this->is('author');
-                    if ($isTimeline):
-                        // 时间轴视图：按年份分组
-                        $currentYear = '';
-                        while ($this->next()):
-                            $year = date('Y', $this->created);
-                            if ($year !== $currentYear):
-                                if ($currentYear !== '') echo '</div>';
-                                $currentYear = $year;
-                            ?>
-                            <div class="joe-archive__year">
-                                <h3 class="joe-archive__year-title"><?php echo $year; ?></h3>
-                            <?php endif; ?>
-                                <div class="joe-archive__post">
-                                    <span class="joe-archive__post-time"><?php echo date('m-d', $this->created); ?></span>
-                                    <a href="<?php $this->permalink() ?>" class="joe-archive__post-title"><?php $this->title() ?></a>
-                                    <?php if ($this->category): ?>
-                                    <span class="joe-archive__post-cat"><?php $this->category(',', false); ?></span>
-                                    <?php endif; ?>
-                                </div>
-                        <?php endwhile; ?>
-                        <?php if ($currentYear !== '') echo '</div>'; ?>
-                    <?php else: ?>
-                        <?php while ($this->next()): ?>
-                        <article class="joe-postlist__item">
-                            <a href="<?php $this->permalink() ?>" class="joe-postlist__thumb<?php if (!joe_has_thumb($this)) echo ' is-none'; ?>">
-                                <?php if (joe_has_thumb($this)): ?>
-                                    <?php echo joe_lazy_img(joe_thumb($this), $this->title, 'joe-postlist__img', 400, 260); ?>
-                                <?php else: ?>
-                                    <span class="joe-postlist__placeholder"><?php echo mb_substr($this->title, 0, 1); ?></span>
-                                <?php endif; ?>
-                            </a>
-                            <div class="joe-postlist__body">
-                                <h3 class="joe-postlist__title">
-                                    <a href="<?php $this->permalink() ?>"><?php echo joe_search_highlight($this->title); ?></a>
-                                </h3>
-                                <p class="joe-postlist__excerpt"><?php echo joe_search_highlight(joe_excerpt($this, 120)); ?></p>
-                                <div class="joe-postlist__meta">
-                                    <span class="joe-meta__item">
-                                        <svg viewBox="0 0 24 24" width="14" height="14"><path d="M3 9h18M5 5h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
-                                        <?php echo joe_format_date($this->created); ?>
-                                    </span>
-                                    <span class="joe-meta__item">
-                                        <svg viewBox="0 0 24 24" width="14" height="14"><path d="M21 11.5a8.5 8.5 0 0 1-12.5 7.5L3 21l2-5.5A8.5 8.5 0 1 1 21 11.5Z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
-                                        <?php $this->commentsNum('%d'); ?>
-                                    </span>
-                                </div>
-                            </div>
-                        </article>
-                        <?php endwhile; ?>
-                    <?php endif; ?>
+            <?php $keyword = htmlspecialchars($this->request->s ?? ''); ?>
+            <div class="joe-archive-header">
+                <?php if ($keyword): ?>
+                <h1 class="joe-archive-header__title">搜索：<?php echo $keyword; ?></h1>
+                <p class="joe-archive-header__desc">找到 <?php $this->count(); ?> 条结果</p>
                 <?php else: ?>
-                <div class="joe-empty joe-empty--big">:)</div>
+                <h1 class="joe-archive-header__title">文章归档</h1>
+                <p class="joe-archive-header__desc">博学之，审问之，慎思之，明辨之，笃行之</p>
                 <?php endif; ?>
+            </div>
 
-                <nav class="joe-pagination">
-                    <?php $this->pageNav(
-                        '上一页',
-                        '下一页',
-                        1, '...',
-                        ['wrapTag' => 'ul', 'wrapClass' => 'joe-pagination__list', 'itemTag' => 'li', 'textTag' => 'span', 'currentClass' => 'is-active', 'prevClass' => 'is-prev', 'nextClass' => 'is-next']
-                    ); ?>
-                </nav>
-            </section>
+            <?php if (!$keyword): ?>
+            <!-- 贡献日历 -->
+            <div class="joe-calendar joe-card">
+                <div class="joe-calendar__header">
+                    <h3 class="joe-calendar__title">写作日历</h3>
+                    <p class="joe-calendar__subtitle">过去一年的创作足迹</p>
+                </div>
+                <div class="joe-calendar__grid" id="joe-calendar-grid">
+                    <?php
+                    $today = new DateTime();
+                    $oneYearAgo = (new DateTime())->modify('-365 days');
+                    $weeks = [];
+                    $current = clone $oneYearAgo;
+                    $levelColors = [
+                        0 => 'var(--bg-code)',
+                        1 => '#9be9a8',
+                        2 => '#40c463',
+                        3 => '#30a14e',
+                        4 => '#216e39',
+                    ];
+                    // Fill weeks
+                    while ($current <= $today) {
+                        $week = (int)$current->format('W');
+                        $day = (int)$current->format('N') - 1; // 0=Mon
+                        $dateStr = $current->format('Y-m-d');
+                        $count = $postDates[$dateStr] ?? 0;
+                        if ($count >= 4) $level = 4;
+                        elseif ($count >= 3) $level = 3;
+                        elseif ($count >= 2) $level = 2;
+                        elseif ($count >= 1) $level = 1;
+                        else $level = 0;
+                        $weeks[$week][$day] = ['date' => $dateStr, 'count' => $count, 'level' => $level];
+                        $current->modify('+1 day');
+                    }
+                    ?>
+                    <div class="joe-calendar__weekdays">
+                        <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span>
+                    </div>
+                    <div class="joe-calendar__months" id="joe-calendar-months">
+                        <?php
+                        // Output cells
+                        $allCells = [];
+                        foreach ($weeks as $weekNum => $days) {
+                            for ($d = 0; $d < 7; $d++) {
+                                if (isset($days[$d])) {
+                                    $allCells[] = $days[$d];
+                                } else {
+                                    $allCells[] = null;
+                                }
+                            }
+                        }
+                        foreach ($allCells as $cell):
+                            if ($cell === null):
+                        ?>
+                        <div class="joe-calendar__cell is-empty"></div>
+                        <?php else: ?>
+                        <div class="joe-calendar__cell" 
+                             data-date="<?php echo $cell['date']; ?>" 
+                             data-count="<?php echo $cell['count']; ?>"
+                             data-level="<?php echo $cell['level']; ?>"
+                             style="background: <?php echo $levelColors[$cell['level']]; ?>;"
+                             title="<?php echo $cell['date'] . ' · ' . $cell['count'] . ' 篇文章'; ?>"></div>
+                        <?php endif; endforeach; ?>
+                    </div>
+                </div>
+                <div class="joe-calendar__legend">
+                    <span class="joe-calendar__legend-text">少</span>
+                    <span class="joe-calendar__legend-box" style="background:var(--bg-code);"></span>
+                    <span class="joe-calendar__legend-box" style="background:#9be9a8;"></span>
+                    <span class="joe-calendar__legend-box" style="background:#40c463;"></span>
+                    <span class="joe-calendar__legend-box" style="background:#30a14e;"></span>
+                    <span class="joe-calendar__legend-box" style="background:#216e39;"></span>
+                    <span class="joe-calendar__legend-text">多</span>
+                </div>
+            </div>
+            <?php endif; ?>
+
+            <!-- 时间轴文章列表 -->
+            <?php if ($this->have()): ?>
+            <?php 
+            $currentYear = '';
+            while ($this->next()):
+                $year = date('Y', $this->created);
+                if ($year != $currentYear):
+                    $currentYear = $year;
+            ?>
+            <div class="joe-archive-year">
+                <h2 class="joe-archive-year__title"><?php echo $currentYear; ?></h2>
+                <div class="joe-archive-year__list">
+            <?php endif; ?>
+                    <article class="joe-archive-item">
+                        <time class="joe-archive-item__date" datetime="<?php $this->date('c'); ?>"><?php $this->date('m/d'); ?></time>
+                        <a class="joe-archive-item__link" href="<?php $this->permalink(); ?>"><?php $this->title(); ?></a>
+                        <span class="joe-archive-item__cat"><?php $this->category(',', false); ?></span>
+                    </article>
+            <?php endwhile; ?>
+                </div>
+            </div>
+
+            <?php if ($this->_currentPage < $this->getTotalPage()): ?>
+            <div class="joe-pagination">
+                <?php $this->pageLink('查看更多', 'next'); ?>
+            </div>
+            <?php endif; ?>
+
+            <?php elseif ($keyword): ?>
+            <div class="joe-card" style="text-align:center;padding:40px;">
+                <p style="color:var(--text-muted);">没有找到相关内容，换个关键词试试？</p>
+            </div>
+            <?php endif; ?>
         </div>
-
         <?php $this->need('sidebar.php'); ?>
     </div>
 </main>

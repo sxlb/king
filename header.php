@@ -16,10 +16,18 @@
     <meta charset="<?php $this->options->charset(); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <?php if (joe_get('pwaEnable') === '1'): ?>
+    <meta name="theme-color" content="<?php echo joe_esc(joe_get('themeColor')) ?: '#4990e2'; ?>">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="<?php $this->options->title(); ?>">
+    <link rel="manifest" href="<?php $this->options->themeUrl(); ?>/manifest.json">
+    <?php endif; ?>
 
     <!-- DNS 预解析 & 预连接（性能优化） -->
     <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
     <link rel="dns-prefetch" href="//secure.gravatar.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <?php if (joe_get('cdnUrl')): ?>
     <link rel="dns-prefetch" href="//<?php echo parse_url(joe_get('cdnUrl'), PHP_URL_HOST); ?>">
     <?php endif; ?>
