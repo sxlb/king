@@ -1,11 +1,16 @@
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php
 /**
- * 时光机
+ * KingJoe Theme
  *
- * @package custom
+ * @package     KingJoe
+ * @template    Timeline
+ * @description 时光机页面，动态时间线展示
+ * @version     1.0.7
+ * @link        https://github.com/sxlb/king
  */
-if (!defined('__TYPECHO_ROOT_DIR__')) exit;
-$this->need('header.php');
+?>
+<?php $this->need('header.php'); ?>
 
 $slug = joe_get('timelineCat');
 $pageSize = (int)(joe_get('timelinePageSize') ?: 10);

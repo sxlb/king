@@ -1,11 +1,16 @@
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php
 /**
- * 关于页
+ * KingJoe Theme
  *
- * @package custom
+ * @package     KingJoe
+ * @template    About
+ * @description 关于页面，展示博主个人信息与技能
+ * @version     1.0.7
+ * @link        https://github.com/sxlb/king
  */
-if (!defined('__TYPECHO_ROOT_DIR__')) exit;
-$this->need('header.php');
+?>
+<?php $this->need('header.php'); ?>
 
 // 自定义字段：nickname / sign / location / email / github / weibo / skills / timeline
 $nick  = $this->fields->nickname ? $this->fields->nickname : $this->user->screenName;

@@ -1,19 +1,16 @@
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php
 /**
- * KingJoe
+ * KingJoe Theme
  *
- * 一款仿 Joe 风格的 Typecho 主题，简洁现代，支持暗黑模式
- *
- * @package KingJoe
- * @author  King
- * @version 1.0.0
- * @link    https://github.com/
+ * @package     KingJoe
+ * @template    Index
+ * @description 首页、文章列表、轮播图、热门推荐
+ * @version     1.0.7
+ * @link        https://github.com/sxlb/king
  */
-
-if (!defined('__TYPECHO_ROOT_DIR__')) exit;
-
-$this->need('header.php');
 ?>
+<?php $this->need('header.php'); ?>
 
 <main class="joe-container" id="main">
     <!-- SEO 隐藏 H1 -->

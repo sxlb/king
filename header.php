@@ -1,4 +1,15 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
+<?php
+/**
+ * KingJoe Theme
+ *
+ * @package     KingJoe
+ * @template    Header
+ * @description 全局头部、SEO元标签、导航栏、结构化数据
+ * @version     1.0.7
+ * @link        https://github.com/sxlb/king
+ */
+?>
 <!DOCTYPE html>
 <html lang="<?php $this->options->language(); ?>">
 <head>

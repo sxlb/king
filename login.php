@@ -1,12 +1,15 @@
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php
 /**
- * KingJoe 登录页面
- * 替换 Typecho 默认登录界面
+ * KingJoe Theme
+ *
+ * @package     KingJoe
+ * @template    Login
+ * @description 登录页面
+ * @version     1.0.7
+ * @link        https://github.com/sxlb/king
  */
-if (!defined('__TYPECHO_ADMIN__')) {
-    header('HTTP/1.1 403 Forbidden');
-    exit;
-}
+?>
 
 $options = Helper::options();
 $siteName = $options->title;

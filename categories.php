@@ -1,14 +1,16 @@
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php
 /**
- * 分类汇总页面模板
+ * KingJoe Theme
  *
- * @package KingJoe
- *
- * 使用方法：创建独立页面 → 选择「分类汇总」模板
+ * @package     KingJoe
+ * @template    Categories
+ * @description 分类目录页，按分类浏览文章
+ * @version     1.0.7
+ * @link        https://github.com/sxlb/king
  */
-if (!defined('__TYPECHO_ROOT_DIR__')) exit;
-$this->need('header.php');
 ?>
+<?php $this->need('header.php'); ?>
 
 <main class="joe-container" id="main">
     <div class="joe-main__wrap">

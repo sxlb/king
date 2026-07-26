@@ -1,4 +1,15 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
+<?php
+/**
+ * KingJoe Theme
+ *
+ * @package     KingJoe
+ * @template    Comments
+ * @description 评论列表、评论表单、Owo表情、Markdown工具栏
+ * @version     1.0.7
+ * @link        https://github.com/sxlb/king
+ */
+?>
 <?php /** @var Widget_Archive $this */ ?>
 <?php if ($this->allow('comment')): ?>
 <section class="joe-comments" id="comments">

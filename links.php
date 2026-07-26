@@ -1,12 +1,16 @@
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php
 /**
- * 友链
+ * KingJoe Theme
  *
- * @package custom
+ * @package     KingJoe
+ * @template    Links
+ * @description 友情链接页，支持分类展示与在线申请
+ * @version     1.0.7
+ * @link        https://github.com/sxlb/king
  */
-if (!defined('__TYPECHO_ROOT_DIR__')) exit;
-$this->need('header.php');
 ?>
+<?php $this->need('header.php'); ?>
 
 <main class="joe-container" id="main">
     <div class="joe-main__wrap joe-main__wrap--single">

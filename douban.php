@@ -1,11 +1,16 @@
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php
 /**
- * 豆瓣清单
+ * KingJoe Theme
  *
- * @package custom
+ * @package     KingJoe
+ * @template    Douban
+ * @description 豆瓣清单页，展示读书/观影/音乐记录
+ * @version     1.0.7
+ * @link        https://github.com/sxlb/king
  */
-if (!defined('__TYPECHO_ROOT_DIR__')) exit;
-$this->need('header.php');
+?>
+<?php $this->need('header.php'); ?>
 
 $doubanId = joe_get('doubanId');
 $hasDouban = (bool)$doubanId;

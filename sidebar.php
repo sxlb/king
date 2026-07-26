@@ -1,4 +1,15 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
+<?php
+/**
+ * KingJoe Theme
+ *
+ * @package     KingJoe
+ * @template    Sidebar
+ * @description 侧边栏、作者卡片、热门/随机文章、标签云
+ * @version     1.0.7
+ * @link        https://github.com/sxlb/king
+ */
+?>
 <aside class="joe-sidebar">
     <!-- 作者卡片 -->
     <section class="joe-card joe-author">

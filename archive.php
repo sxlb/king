@@ -1,4 +1,15 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
+<?php
+/**
+ * KingJoe Theme
+ *
+ * @package     KingJoe
+ * @template    Archive
+ * @description 文章归档页、时间轴视图、搜索整合
+ * @version     1.0.7
+ * @link        https://github.com/sxlb/king
+ */
+?>
 <?php $this->need('header.php'); ?>
 
 <main class="joe-container" id="main">

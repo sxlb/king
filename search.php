@@ -1,4 +1,15 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
+<?php
+/**
+ * KingJoe Theme
+ *
+ * @package     KingJoe
+ * @template    Search
+ * @description 搜索结果页、关键词高亮、搜索统计
+ * @version     1.0.7
+ * @link        https://github.com/sxlb/king
+ */
+?>
 <?php $this->need('header.php'); ?>
 <?php $rawKeyword = $this->request->s ?? ''; ?>
 <?php $keyword = htmlspecialchars($rawKeyword); ?>

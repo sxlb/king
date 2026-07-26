@@ -1,11 +1,16 @@
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php
 /**
- * 留言板
+ * KingJoe Theme
  *
- * @package custom
+ * @package     KingJoe
+ * @template    Leaving
+ * @description 留言板页面，访客留言与博主回复
+ * @version     1.0.7
+ * @link        https://github.com/sxlb/king
  */
-if (!defined('__TYPECHO_ROOT_DIR__')) exit;
-$this->need('header.php');
+?>
+<?php $this->need('header.php'); ?>
 
 // 统计总留言数
 $db = Typecho_Db::get();

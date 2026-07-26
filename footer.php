@@ -1,4 +1,15 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
+<?php
+/**
+ * KingJoe Theme
+ *
+ * @package     KingJoe
+ * @template    Footer
+ * @description 全站底部、页脚信息、社交图标、统计代码
+ * @version     1.0.7
+ * @link        https://github.com/sxlb/king
+ */
+?>
 </div><!-- /.joe-wrapper -->
 
 <!-- 底部 -->

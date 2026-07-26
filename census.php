@@ -1,11 +1,16 @@
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php
 /**
- * 博客统计
+ * KingJoe Theme
  *
- * @package custom
+ * @package     KingJoe
+ * @template    Census
+ * @description 站点统计页，数据可视化展示
+ * @version     1.0.7
+ * @link        https://github.com/sxlb/king
  */
-if (!defined('__TYPECHO_ROOT_DIR__')) exit;
-$this->need('header.php');
+?>
+<?php $this->need('header.php'); ?>
 
 $stats = joe_site_stats();
 ?>

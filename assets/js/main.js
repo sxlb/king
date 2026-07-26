@@ -1,5 +1,47 @@
 /**
  * KingJoe 主题交互脚本
+ * https://github.com/sxlb/king
+ *
+ * 功能索引
+ * ────────────────────────────────────────────
+ * 01. 工具函数          throttle, debounce, toggleClass
+ * 02. 主题系统          暗黑模式切换、系统主题跟随
+ * 03. 点赞按钮          文章点赞/取消点赞
+ * 04. 图片灯箱          点击放大、左右切换、ESC关闭
+ * 05. 鼠标特效          爱心/文字/粒子
+ * 06. 侧边栏Tab         热门/随机切换
+ * 07. 页面加载进度条
+ * 08. 评论内链跳转
+ * 09. 阅读模式          正文阅读模式切换
+ * 10. 复制追加版权
+ * 11. 快捷键系统        键盘快捷操作
+ * 12. 打赏按钮
+ * 13. 智能导航隐藏
+ * 14. 文章浮动目录点
+ * 15. 评论@回复
+ * 16. 图片骨架屏渐入
+ * 17. 公告栏关闭
+ * 18. 无限滚动          首页文章自动加载
+ * 19. 运行时间动态
+ * 20. 首页轮播图
+ * 21. 全站飘落特效
+ * 22. 全局音乐播放器
+ * 23. 友链在线申请
+ * 24. 鱼群跳跃特效
+ * 25. SSL认证图标
+ * 26. 动态星空背景
+ * 27. 百度收录提交
+ * 28. 复制版权弹窗
+ * 29. 缩略图替换
+ * 30. 文章导读卡片
+ * 31. 移动端适配
+ * 32. Pjax 回调处理
+ * 33. 评论点赞
+ * 34. 时光机加载
+ * 35. 移动端悬浮栏
+ * 36. 代码块复制
+ * 37. 字体大小调节
+ * ────────────────────────────────────────────
  */
 var initKingJoe = (function () {
     'use strict';
@@ -9,7 +51,7 @@ var initKingJoe = (function () {
     var w = window;
     var body = d.body;
 
-    /* ---------- 工具函数 ---------- */
+    // ▸ 工具函数
     function throttle(fn, delay) {
         var last = 0;
         return function () {
@@ -21,7 +63,7 @@ var initKingJoe = (function () {
         };
     }
 
-    /* ---------- 暗黑模式 ---------- */
+    // ▸ 暗黑模式
     var mqDark = w.matchMedia('(prefers-color-scheme: dark)');
 
     function currentMode() {
@@ -73,7 +115,7 @@ var initKingJoe = (function () {
         }
     });
 
-    /* ---------- 搜索弹层 ---------- */
+    // ▸ 搜索弹层
     var search = d.getElementById('joe-search');
     if (search) {
         d.addEventListener('click', function (e) {
@@ -97,7 +139,7 @@ var initKingJoe = (function () {
         });
     }
 
-    /* ---------- 移动端汉堡菜单 ---------- */
+    // ▸ 移动端汉堡菜单
     var hamburger = d.getElementById('joe-hamburger');
     var nav = d.querySelector('.joe-nav');
     var drawer = d.getElementById('joe-drawer');
@@ -124,8 +166,8 @@ var initKingJoe = (function () {
         });
     }
 
-    /* ---------- 返回顶部 ---------- */
-    var backtop = d.getElementById('joe-backtop');
+    // ▸ 返回顶部
+    var backTop = d.getElementById('joe-backtop');
     var backtopCircle = null;
     var backtopText = null;
     if (backtop) {
@@ -161,7 +203,7 @@ var initKingJoe = (function () {
         });
     }
 
-    /* ---------- TOC 折叠 ---------- */
+    // ▸ TOC 折叠
     var tocToggle = d.querySelector('.joe-toc__toggle');
     if (tocToggle) {
         tocToggle.addEventListener('click', function (e) {
@@ -183,7 +225,7 @@ var initKingJoe = (function () {
         });
     }
 
-    /* ---------- TOC 滚动高亮 ---------- */
+    // ▸ TOC 滚动高亮
     var toc = d.getElementById('joe-toc');
     var content = d.getElementById('joe-content');
     var headings = [];
@@ -240,7 +282,7 @@ var initKingJoe = (function () {
         });
     }
 
-    /* ---------- 移动端 TOC 抽屉 ---------- */
+    // ▸ 移动端 TOC 抽屉
     var tocDrawer = d.getElementById('joe-toc-drawer');
     var tocFab = d.getElementById('joe-toc-fab');
     if (tocDrawer && tocFab) {
@@ -281,7 +323,7 @@ var initKingJoe = (function () {
         });
     }
 
-    /* ---------- 图片懒加载（IntersectionObserver + 占位淡入） ---------- */
+    // ▸ 图片懒加载（IntersectionObserver + 占位淡入）
     function loadImage(img) {
         var realSrc = img.getAttribute('data-src');
         if (!realSrc) return;
@@ -316,7 +358,7 @@ var initKingJoe = (function () {
         lazyImgs.forEach(loadImage);
     }
 
-    /* ---------- 评论表单：Ctrl/Cmd+Enter 提交 ---------- */
+    // ▸ 评论表单：Ctrl/Cmd+Enter 提交
     var commentForm = d.getElementById('comment-form');
     if (commentForm) {
         commentForm.addEventListener('keydown', function (e) {
@@ -341,7 +383,7 @@ var initKingJoe = (function () {
         });
     }
 
-    /* ---------- 阅读进度条 ---------- */
+    // ▸ 阅读进度条
     var progressFill = d.getElementById('joe-progressbar-fill');
     var floatProgress = d.getElementById('joe-float-progress');
     var floatFill = d.getElementById('joe-float-progress-fill');
@@ -375,7 +417,7 @@ var initKingJoe = (function () {
         }
     }
 
-    /* ---------- 分享按钮 ---------- */
+    // ▸ 分享按钮
     var shareBox = d.querySelector('.joe-share');
     if (shareBox) {
         var wechatBtn = shareBox.querySelector('[data-share="wechat"]');
@@ -475,7 +517,7 @@ var initKingJoe = (function () {
         });
     }
 
-    /* ---------- 技能条动画（about 页） ---------- */
+    // ▸ 技能条动画（about 页）
     var skillBars = d.querySelectorAll('.joe-skill');
     if (skillBars.length && 'IntersectionObserver' in w) {
         var skillIO = new IntersectionObserver(function (entries) {
@@ -489,7 +531,7 @@ var initKingJoe = (function () {
         skillBars.forEach(function (el) { skillIO.observe(el); });
     }
 
-    /* ---------- 初始化 ---------- */
+    // ▸ 初始化
     syncToggleIcon();
     if (window.pageYOffset > 300 && backtop) backtop.classList.add('is-show');
 
