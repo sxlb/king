@@ -12,6 +12,7 @@ html {
     --primary:        #4990e2;
     --primary-hover:  #3a7fd0;
     --primary-light:  rgba(73, 144, 226, 0.12);
+    --accent:         #2bd4c8;
     --success:        #1abc9c;
     --warning:        #f39c12;
     --danger:         #e74c3c;
@@ -182,7 +183,7 @@ input, textarea {
     align-items: flex-start;
 }
 .joe-main { flex: 1; min-width: 0; }
-.joe-sidebar { flex: 0 0 var(--sidebar-w); width: var(--sidebar-w); position: sticky; top: calc(var(--header-h) + 24px); }
+.joe-sidebar { flex: 0 0 var(--sidebar-w); width: var(--sidebar-w); position: sticky; top: calc(var(--header-h) + 24px); display: flex; flex-direction: column; gap: 16px; max-height: calc(100vh - var(--header-h) - 48px); overflow-y: auto; }
 
 /* ---------- 顶部导航 ---------- */
 .joe-header {
@@ -476,7 +477,6 @@ body.is-dark .joe-theme__toggle .i-moon { display: inline-block; }
 }
 
 /* ---------- 侧边栏 ---------- */
-.joe-sidebar { display: flex; flex-direction: column; gap: 16px; max-height: calc(100vh - var(--header-h) - 48px); overflow-y: auto; }
 .joe-sidebar::-webkit-scrollbar { width: 0; }
 
 .joe-card {

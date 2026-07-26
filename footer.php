@@ -189,7 +189,7 @@
 <?php if (joe_get('codeLineNumbers') === '1'): ?>
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
 <?php endif; ?>
-<script src="<?php echo joe_asset('assets/js/prism-extras.js'); ?>?v=1.0.0"></script>
+<script src="<?php echo joe_asset('lib/prism/prism.js'); ?>?v=1.0.0"></script>
 <?php endif; ?>
 <?php if (joe_get('analyticsCode')): ?>
 <!-- 统计代码 -->

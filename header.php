@@ -115,7 +115,7 @@
     <meta name="joe-shortcut" content="1">
     <?php endif; ?>
     <?php if (joe_get('codeHighlight') === '1' && $this->is('single')): ?>
-    <link rel="stylesheet" href="<?php echo joe_asset('assets/css/prism.css'); ?>?v=1.0.0">
+    <link rel="stylesheet" href="<?php echo joe_asset('lib/prism/prism.css'); ?>?v=1.0.0">
     <?php endif; ?>
     <?php $this->header('commentReply=&description=&keywords='); ?>
 </head>
