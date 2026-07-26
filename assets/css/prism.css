@@ -1,0 +1,176 @@
+/* ============================================================
+   KingJoe — Prism.js 代码高亮主题（明暗双套，跟随主题切换）
+   基于 Prism One Light / One Dark 调整
+   ============================================================ */
+
+/* ---------- 亮色（默认） ---------- */
+code[class*="language-"],
+pre[class*="language-"] {
+    color: #383a42;
+    font-family: var(--font-mono, "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace);
+    font-size: 13.5px;
+    line-height: 1.65;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    tab-size: 4;
+    hyphens: none;
+    -moz-tab-size: 4;
+}
+
+pre[class*="language-"] {
+    padding: 18px 20px;
+    margin: 18px 0;
+    overflow: auto;
+    background: #fafafa;
+    border: 1px solid var(--border, #ebeef2);
+    border-radius: var(--radius, 8px);
+}
+
+:not(pre) > code[class*="language-"] {
+    padding: 2px 6px;
+    background: rgba(56, 58, 66, 0.08);
+    border-radius: 4px;
+    white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.cdata    { color: #a0a1a7; font-style: italic; }
+.token.punctuation { color: #383a42; }
+.token.namespace  { opacity: .7; }
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol    { color: #e45649; }
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin   { color: #50a14f; }
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string { color: #a626a4; }
+.token.atrule,
+.token.attr-value,
+.token.keyword   { color: #c18401; }
+.token.function,
+.token.class-name { color: #4078f2; }
+.token.regex,
+.token.important,
+.token.variable  { color: #986801; }
+.token.important,
+.token.bold      { font-weight: bold; }
+.token.italic    { font-style: italic; }
+
+/* 行号插件 */
+pre.line-numbers {
+    position: relative;
+    padding-left: 3.5em;
+    counter-reset: linenumber;
+}
+pre.line-numbers > code {
+    position: relative;
+    white-space: inherit;
+}
+.line-numbers .line-numbers-rows {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: -3.5em;
+    width: 3em;
+    letter-spacing: -1px;
+    border-right: 1px solid var(--border, #ebeef2);
+    user-select: none;
+}
+.line-numbers-rows > span {
+    display: block;
+    counter-increment: linenumber;
+}
+.line-numbers-rows > span::before {
+    content: counter(linenumber);
+    color: #a0a1a7;
+    display: block;
+    text-align: right;
+    padding-right: .8em;
+    font-size: 12px;
+}
+
+/* 工具栏（复制按钮等占位） */
+div.code-toolbar { margin: 18px 0; position: relative; }
+div.code-toolbar > .toolbar { position: absolute; top: .4em; right: .5em; opacity: 0; transition: opacity .2s ease; }
+div.code-toolbar:hover > .toolbar { opacity: 1; }
+div.code-toolbar > .toolbar > .toolbar-item { display: inline-block; }
+div.code-toolbar > .toolbar a,
+div.code-toolbar > .toolbar button {
+    background: rgba(73, 144, 226, .12);
+    color: #4990e2;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+div.code-toolbar > .toolbar a:hover,
+div.code-toolbar > .toolbar button:hover { background: rgba(73, 144, 226, .2); }
+
+/* ---------- 暗色（body.is-dark） ---------- */
+body.is-dark code[class*="language-"],
+body.is-dark pre[class*="language-"] { color: #abb2bf; }
+
+body.is-dark pre[class*="language-"] {
+    background: #1e2127;
+    border-color: var(--border, #33363b);
+}
+
+body.is-dark :not(pre) > code[class*="language-"] {
+    background: rgba(171, 178, 191, 0.12);
+}
+
+body.is-dark .token.comment,
+body.is-dark .token.prolog,
+body.is-dark .token.cdata    { color: #5c6370; }
+body.is-dark .token.punctuation { color: #abb2bf; }
+body.is-dark .token.property,
+body.is-dark .token.tag,
+body.is-dark .token.boolean,
+body.is-dark .token.number,
+body.is-dark .token.constant,
+body.is-dark .token.symbol    { color: #e06c75; }
+body.is-dark .token.selector,
+body.is-dark .token.attr-name,
+body.is-dark .token.string,
+body.is-dark .token.char,
+body.is-dark .token.builtin   { color: #98c379; }
+body.is-dark .token.operator,
+body.is-dark .token.entity,
+body.is-dark .token.url,
+body.is-dark .language-css .token.string,
+body.is-dark .style .token.string { color: #56b6c2; }
+body.is-dark .token.atrule,
+body.is-dark .token.attr-value,
+body.is-dark .token.keyword   { color: #c678dd; }
+body.is-dark .token.function,
+body.is-dark .token.class-name { color: #61afef; }
+body.is-dark .token.regex,
+body.is-dark .token.important,
+body.is-dark .token.variable  { color: #d19a66; }
+
+body.is-dark .line-numbers .line-numbers-rows { border-right-color: var(--border, #33363b); }
+body.is-dark .line-numbers-rows > span::before { color: #5c6370; }
+
+body.is-dark div.code-toolbar > .toolbar a,
+body.is-dark div.code-toolbar > .toolbar button {
+    background: rgba(90, 155, 240, .15);
+    color: #5a9bf0;
+}
+body.is-dark div.code-toolbar > .toolbar a:hover,
+body.is-dark div.code-toolbar > .toolbar button:hover { background: rgba(90, 155, 240, .25); }
+
+/* 行号背景遮罩（暗色模式下更明显） */
+body.is-dark pre.line-numbers { background: #1a1d23; }
