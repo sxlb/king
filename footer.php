@@ -1,1 +1,222 @@
-PD9waHAgaWYgKCFkZWZpbmVkKCdfX1RZUEVDSE9fUk9PVF9ESVJfXycpKSBleGl0OyA/Pgo8L2Rpdj48IS0tIC8uam9lLXdyYXBwZXIgLS0+Cgo8IS0tIOW6lemDqCAtLT4KPGZvb3RlciBjbGFzcz0iam9lLWZvb3RlciI+CiAgICA8ZGl2IGNsYXNzPSJqb2UtZm9vdGVyX19pbm5lciI+CiAgICAgICAgPGRpdiBjbGFzcz0iam9lLWZvb3Rlcl9fY29sIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWZvb3Rlcl9fYnJhbmQiPjw/cGhwIGVjaG8gam9lX2VzYyhqb2VfZ2V0KCdsb2dvVGV4dCcpKSA/OiAkdGhpcy0+b3B0aW9ucy0+dGl0bGUoKTsgPz48L2Rpdj4KICAgICAgICAgICAgPHAgY2xhc3M9ImpvZS1mb290ZXJfX2Rlc2MiPjw/cGhwICR0aGlzLT5vcHRpb25zLT5kZXNjcmlwdGlvbigpOyA/PjwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtZm9vdGVyX19jb2wiPgogICAgICAgICAgICA8aDQgY2xhc3M9ImpvZS1mb290ZXJfX3RpdGxlIj7lr7zoiKo8L2g0PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtZm9vdGVyX19saW5rcyI+CiAgICAgICAgICAgICAgICA8P3BocAogICAgICAgICAgICAgICAgJG5hdiA9IGpvZV9nZXQoJ25hdkh0bWwnKTsKICAgICAgICAgICAgICAgIGlmICgkbmF2KSBlY2hvICRuYXY7CiAgICAgICAgICAgICAgICA/PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtZm9vdGVyX19jb2wiPgogICAgICAgICAgICA8aDQgY2xhc3M9ImpvZS1mb290ZXJfX3RpdGxlIj7lhbPms6g8L2g0PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtZm9vdGVyX19saW5rcyI+CiAgICAgICAgICAgICAgICA8P3BocAogICAgICAgICAgICAgICAgJHNvY2lhbCA9IGpvZV9nZXQoJ2F1dGhvclNvY2lhbCcpOwogICAgICAgICAgICAgICAgaWYgKCRzb2NpYWwpIHsKICAgICAgICAgICAgICAgICAgICAkbGluZXMgPSBleHBsb2RlKCJcbiIsIHRyaW0oJHNvY2lhbCkpOwogICAgICAgICAgICAgICAgICAgIGZvcmVhY2ggKCRsaW5lcyBhcyAkbGluZSkgewogICAgICAgICAgICAgICAgICAgICAgICAkcGFydHMgPSBleHBsb2RlKCd8JywgdHJpbSgkbGluZSkpOwogICAgICAgICAgICAgICAgICAgICAgICBpZiAoY291bnQoJHBhcnRzKSA9PT0gMikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZWNobyAnPGEgaHJlZj0iJyAuIGpvZV9lc2MoJHBhcnRzWzFdKSAuICciIHRhcmdldD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIG5vcmVmZXJyZXIiPicgLiBodG1sc3BlY2lhbGNoYXJzKHVjZmlyc3QoJHBhcnRzWzBdKSkgLiAnPC9hPic7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICA/PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDwhLS0g56S+5Lqk5Zu+5qCH6KGMIC0tPgogICAgPD9waHAgJGZvb3RlclNvY2lhbCA9IGpvZV9nZXQoJ2Zvb3RlclNvY2lhbCcpOyBpZiAoJGZvb3RlclNvY2lhbCk6ID8+CiAgICA8ZGl2IGNsYXNzPSJqb2UtZm9vdGVyX19zb2NpYWwtcm93Ij4KICAgICAgICA8P3BocAogICAgICAgICRzb2NpYWxMaW5lcyA9IGV4cGxvZGUoIlxuIiwgdHJpbSgkZm9vdGVyU29jaWFsKSk7CiAgICAgICAgZm9yZWFjaCAoJHNvY2lhbExpbmVzIGFzICRsaW5lKSB7CiAgICAgICAgICAgICRwYXJ0cyA9IGV4cGxvZGUoJ3wnLCB0cmltKCRsaW5lKSk7CiAgICAgICAgICAgIGlmIChjb3VudCgkcGFydHMpID09PSAyKSB7CiAgICAgICAgICAgICAgICAkaWNvbiA9IHRyaW0oJHBhcnRzWzBdKTsKICAgICAgICAgICAgICAgICR1cmwgPSB0cmltKCRwYXJ0c1sxXSk7CiAgICAgICAgICAgICAgICBlY2hvICc8YSBocmVmPSInIC4gam9lX2VzYygkdXJsKSAuICciIGNsYXNzPSJqb2UtZm9vdGVyX19zb2NpYWwtaXRlbSIgdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIgdGl0bGU9IicgLiBodG1sc3BlY2lhbGNoYXJzKHVjZmlyc3QoJGljb24pKSAuICciPic7CiAgICAgICAgICAgICAgICBlY2hvIGpvZV9zb2NpYWxfc3ZnKCRpY29uKTsKICAgICAgICAgICAgICAgIGVjaG8gJzwvYT4nOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgID8+CiAgICA8L2Rpdj4KICAgIDw/cGhwIGVuZGlmOyA/PgoKICAgIDxkaXYgY2xhc3M9ImpvZS1mb290ZXJfX2JvdHRvbSI+CiAgICAgICAgPD9waHAgJHN0YXRzID0gam9lX3NpdGVfc3RhdHMoKTsgPz4KICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtZm9vdGVyX19zdGF0cyI+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJqb2UtZm9vdGVyX19zdGF0LWl0ZW0iPgogICAgICAgICAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik00IDRoMTZ2MTZINHoiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz48cGF0aCBkPSJNNCA5aDE2TTkgNHYxNiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPjwvc3ZnPgogICAgICAgICAgICAgICAg5paH56ugIDxzcGFuIGNsYXNzPSJqb2UtZm9vdGVyX19zdGF0LW51bSI+PD9waHAgZWNobyAkc3RhdHNbJ3Bvc3RzJ107ID8+PC9zcGFuPgogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJqb2UtZm9vdGVyX19zdGF0LWl0ZW0iPgogICAgICAgICAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0yMSAxMS41YTguNSA4LjUgMCAwIDEtMTIuNSA3LjVMMyAyMWwyLTUuNUE4LjUgOC41IDAgMSAxIDIxIDExLjVaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+PC9zdmc+CiAgICAgICAgICAgICAgICDor4TorrogPHNwYW4gY2xhc3M9ImpvZS1mb290ZXJfX3N0YXQtbnVtIj48P3BocCBlY2hvICRzdGF0c1snY29tbWVudHMnXTsgPz48L3NwYW4+CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImpvZS1mb290ZXJfX3N0YXQtaXRlbSI+CiAgICAgICAgICAgICAgICA8c3ZnIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iOSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0xMiA3djVsMyAyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+PC9zdmc+CiAgICAgICAgICAgICAgICDov5DooYwgPHNwYW4gY2xhc3M9ImpvZS1mb290ZXJfX3N0YXQtbnVtIiBpZD0iam9lLXJ1bnRpbWUiIGRhdGEtc3RhcnQ9Ijw/cGhwIGVjaG8gJHN0YXRzWydzaXRlU3RhcnQnXTsgPz4iPjw/cGhwIGVjaG8gJHN0YXRzWydkYXlzJ107ID8+IOWkqTwvc3Bhbj4KICAgICAgICAgICAgPC9zcGFuPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImpvZS1mb290ZXJfX2JvdHRvbS1sZWZ0Ij4KICAgICAgICAgICAgPD9waHAgaWYgKGpvZV9nZXQoJ2Zvb3RlckxlZnQnKSk6ID8+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImpvZS1mb290ZXJfX2xlZnQtY3VzdG9tIj48P3BocCBlY2hvIGpvZV9lc2Moam9lX2dldCgnZm9vdGVyTGVmdCcpKTsgPz48L2Rpdj4KICAgICAgICAgICAgPD9waHAgZWxzZTogPz4KICAgICAgICAgICAgPHA+JmNvcHk7IDw/cGhwIGVjaG8gZGF0ZSgnWScpOyA/PiA8P3BocCAkdGhpcy0+b3B0aW9ucy0+dGl0bGUoKTsgPz4gwrcgUG93ZXJlZCBieSBUeXBlY2hvIMK3IFRoZW1lIEtpbmdKb2U8L3A+CiAgICAgICAgICAgIDw/cGhwIGVuZGlmOyA/PgogICAgICAgICAgICA8P3BocCBpZiAoam9lX2dldCgnaWNwJykpOiA/PgogICAgICAgICAgICA8cD48YSBocmVmPSJodHRwczovL2JlaWFuLm1paXQuZ292LmNuLyIgdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciI+PD9waHAgam9lX29wdCgnaWNwJyk7ID8+PC9hPjwvcD4KICAgICAgICAgICAgPD9waHAgZW5kaWY7ID8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0iam9lLWZvb3Rlcl9fYm90dG9tLXJpZ2h0Ij4KICAgICAgICAgICAgPD9waHAgaWYgKGpvZV9nZXQoJ2Zvb3RlclJpZ2h0JykpOiA/PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtZm9vdGVyX19yaWdodC1jdXN0b20iPjw/cGhwIGVjaG8gam9lX2VzYyhqb2VfZ2V0KCdmb290ZXJSaWdodCcpKTsgPz48L2Rpdj4KICAgICAgICAgICAgPD9waHAgZW5kaWY7ID8+CiAgICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICAgIDw/cGhwIGlmIChqb2VfZ2V0KCdzc2xJY29uJykpOiA/PgogICAgPGRpdiBjbGFzcz0iam9lLWZvb3Rlcl9fc3NsIj4KICAgICAgICA8P3BocCBlY2hvIGpvZV9nZXQoJ3NzbEljb24nKTsgPz4KICAgIDwvZGl2PgogICAgPD9waHAgZW5kaWY7ID8+CjwvZm9vdGVyPgoKPD9waHAgaWYgKGpvZV9nZXQoJ211c2ljUGxheWVyJykgPT09ICcxJyAmJiBqb2VfZ2V0KCdtdXNpY0lkJykpOiA/Pgo8IS0tIOWFqOWxgOmfs+S5kOaSreaUvuWZqCAtLT4KPGRpdiBjbGFzcz0iam9lLW11c2ljIiBpZD0iam9lLW11c2ljIiBkYXRhLWlkPSI8P3BocCBqb2Vfb3B0KCdtdXNpY0lkJyk7ID8+IiBkYXRhLXNlcnZlcj0iPD9waHAgam9lX29wdCgnbXVzaWNTZXJ2ZXInKTsgPz4iIGRhdGEtdHlwZT0iPD9waHAgam9lX29wdCgnbXVzaWNUeXBlJyk7ID8+IiBkYXRhLWF1dG9wbGF5PSI8P3BocCBlY2hvIGpvZV9nZXQoJ211c2ljQXV0b1BsYXknKSA9PT0gJzEnID8gJzEnIDogJzAnOyA/PiI+CiAgICA8YnV0dG9uIGNsYXNzPSJqb2UtbXVzaWNfX3RvZ2dsZSIgaWQ9ImpvZS1tdXNpYy10b2dnbGUiIGFyaWEtbGFiZWw9IuaJk+W8gOmfs+S5kOaSreaUvuWZqCI+CiAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PHBhdGggZD0iTTkgMThWNWwxMi0ydjEzIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz48Y2lyY2xlIGN4PSI2IiBjeT0iMTgiIHI9IjMiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz48Y2lyY2xlIGN4PSIxOCIgY3k9IjE2IiByPSIzIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+PC9zdmc+CiAgICA8L2J1dHRvbj4KICAgIDxkaXYgY2xhc3M9ImpvZS1tdXNpY19fcGFuZWwiIGlkPSJqb2UtbXVzaWMtcGFuZWwiPgogICAgICAgIDxkaXYgY2xhc3M9ImpvZS1tdXNpY19fY292ZXIiIGlkPSJqb2UtbXVzaWMtY292ZXIiPjwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImpvZS1tdXNpY19faW5mbyI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImpvZS1tdXNpY19fdGl0bGUiIGlkPSJqb2UtbXVzaWMtdGl0bGUiPueCueWHu+WKoOi9vTwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtbXVzaWNfX2FydGlzdCIgaWQ9ImpvZS1tdXNpYy1hcnRpc3QiPjwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImpvZS1tdXNpY19fY29udHJvbHMiPgogICAgICAgICAgICA8YnV0dG9uIGNsYXNzPSJqb2UtbXVzaWNfX2J0biIgaWQ9ImpvZS1tdXNpYy1wcmV2IiBhcmlhLWxhYmVsPSLkuIrkuIDpppYiPgogICAgICAgICAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTE5IDIwIDkgMTJsMTAtOHYxNloiIGZpbGw9ImN1cnJlbnRDb2xvciIvPjxwYXRoIGQ9Ik01IDE5VjUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz48L3N2Zz4KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgIDxidXR0b24gY2xhc3M9ImpvZS1tdXNpY19fYnRuIGpvZS1tdXNpY19fcGxheSIgaWQ9ImpvZS1tdXNpYy1wbGF5IiBhcmlhLWxhYmVsPSLmkq3mlL4iPgogICAgICAgICAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PHBhdGggZD0iTTggNXYxNGwxMS03WiIgZmlsbD0iY3VycmVudENvbG9yIi8+PC9zdmc+CiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICA8YnV0dG9uIGNsYXNzPSJqb2UtbXVzaWNfX2J0biIgaWQ9ImpvZS1tdXNpYy1uZXh0IiBhcmlhLWxhYmVsPSLkuIvkuIDpppYiPgogICAgICAgICAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTUgNCAxNSAxMmwtMTAgOFY0WiIgZmlsbD0iY3VycmVudENvbG9yIi8+PHBhdGggZD0iTTE5IDV2MTQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz48L3N2Zz4KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGJ1dHRvbiBjbGFzcz0iam9lLW11c2ljX19jbG9zZSIgaWQ9ImpvZS1tdXNpYy1jbG9zZSIgYXJpYS1sYWJlbD0i5YWz6ZetIj4KICAgICAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCI+PHBhdGggZD0iTTYgNmwxMiAxMk0xOCA2IDYgMTgiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPgogICAgICAgIDwvYnV0dG9uPgogICAgPC9kaXY+CiAgICA8YXVkaW8gaWQ9ImpvZS1tdXNpYy1hdWRpbyI+PC9hdWRpbz4KPC9kaXY+Cjw/cGhwIGVuZGlmOyA/PgoKPCEtLSDov5Tlm57pobbpg6ggLS0+CjxidXR0b24gY2xhc3M9ImpvZS1iYWNrdG9wIiBpZD0iam9lLWJhY2t0b3AiIGFyaWEtbGFiZWw9Iui/lOWbnumhtumDqCIgdGl0bGU9Iua7muWbnumhtumDqCI+CiAgICA8c3BhbiBjbGFzcz0iam9lLWJhY2t0b3BfX3RleHQiIGlkPSJqb2UtYmFja3RvcC10ZXh0Ij5UT1A8L3NwYW4+CiAgICA8c3ZnIGNsYXNzPSJqb2UtYmFja3RvcF9fcHJvZ3Jlc3MiIHZpZXdCb3g9IjAgMCA0NCA0NCI+CiAgICAgICAgPGNpcmNsZSBjeD0iMjIiIGN5PSIyMiIgcj0iMjAiLz4KICAgIDwvc3ZnPgogICAgPHN2ZyBjbGFzcz0iam9lLWJhY2t0b3BfX2Fycm93IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTEyIDE5VjVNNSAxMmw3LTcgNyA3IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4KPC9idXR0b24+Cgo8IS0tIOenu+WKqOerr+W6lemDqOWvvOiIqiAtLT4KPG5hdiBjbGFzcz0iam9lLW1vYmlsZS1uYXYiPgogICAgPGRpdiBjbGFzcz0iam9lLW1vYmlsZS1uYXZfX2xpc3QiPgogICAgICAgIDxhIGhyZWY9Ijw/cGhwICR0aGlzLT5vcHRpb25zLT5zaXRlVXJsKCk7ID8+IiBjbGFzcz0iam9lLW1vYmlsZS1uYXZfX2l0ZW08P3BocCBpZiAoJHRoaXMtPmlzKCdpbmRleCcpKSBlY2hvICcgaXMtY3VycmVudCc7ID8+Ij4KICAgICAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0zIDEwLjUgMTIgM2w5IDcuNVYyMGExIDEgMCAwIDEtMSAxaC01di02aC02djZINGExIDEgMCAwIDEtMS0xdi05LjVaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIi8+PC9zdmc+CiAgICAgICAgICAgIOmmlumhtQogICAgICAgIDwvYT4KICAgICAgICA8P3BocAogICAgICAgICRjYXRzID0gVHlwZWNob19XaWRnZXQ6OndpZGdldCgnV2lkZ2V0X01ldGFzX0NhdGVnb3J5X0xpc3QnKTsKICAgICAgICAkaGFzQ2F0ID0gZmFsc2U7CiAgICAgICAgd2hpbGUgKCRjYXRzLT5uZXh0KCkpOiBpZiAoISRoYXNDYXQpICRoYXNDYXQgPSB0cnVlOwogICAgICAgIGVuZHdoaWxlOwogICAgICAgIGlmICgkaGFzQ2F0KToKICAgICAgICA/PgogICAgICAgIDxhIGhyZWY9Ijw/cGhwICR0aGlzLT5vcHRpb25zLT5zaXRlVXJsKCk7ID8+YXJjaGl2ZSIgY2xhc3M9ImpvZS1tb2JpbGUtbmF2X19pdGVtPD9waHAgaWYgKCR0aGlzLT5pcygnYXJjaGl2ZScpKSBlY2hvICcgaXMtY3VycmVudCc7ID8+Ij4KICAgICAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik00IDdoMTZNNCAxMmgxNk00IDE3aDEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIGZpbGw9Im5vbmUiLz48L3N2Zz4KICAgICAgICAgICAg5YiG57G7CiAgICAgICAgPC9hPgogICAgICAgIDw/cGhwIGVuZGlmOyA/PgogICAgICAgIDxidXR0b24gY2xhc3M9ImpvZS1tb2JpbGUtbmF2X19pdGVtIGpvZS10aGVtZV9fdG9nZ2xlIiBhcmlhLWxhYmVsPSLliIfmjaLkuLvpopgiPgogICAgICAgICAgICA8c3ZnIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iNSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0xMiAxdjJNMTIgMjF2Mk00LjIyIDQuMjJsMS40MiAxLjQyTTE4LjM2IDE4LjM2bDEuNDIgMS40Mk0xIDEyaDJNMjEgMTJoMk00LjIyIDE5Ljc4bDEuNDItMS40Mk0xOC4zNiA1LjY0bDEuNDItMS40MiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9zdmc+CiAgICAgICAgICAgIOS4u+mimAogICAgICAgIDwvYnV0dG9uPgogICAgICAgIDxidXR0b24gY2xhc3M9ImpvZS1tb2JpbGUtbmF2X19pdGVtIGpvZS1zZWFyY2hfX3RyaWdnZXIiIGFyaWEtbGFiZWw9IuaQnOe0oiI+CiAgICAgICAgICAgIDxzdmcgdmlld0JveD0iMCAwIDI0IDI0Ij48Y2lyY2xlIGN4PSIxMSIgY3k9IjExIiByPSI3IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTIwIDIwbC0zLjMtMy4zIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4KICAgICAgICAgICAg5pCc57SiCiAgICAgICAgPC9idXR0b24+CiAgICA8L2Rpdj4KPC9uYXY+Cgo8c2NyaXB0IHNyYz0iPD9waHAgZWNobyBqb2VfYXNzZXQoJ2Fzc2V0cy9qcy9tYWluLmpzJyk7ID8+P3Y9MS4wLjAiPjwvc2NyaXB0Pgo8P3BocCBpZiAoam9lX2dldCgncGpheFRvZ2dsZScpID09PSAnMScpOiA/Pgo8c2NyaXB0PnZhciBLSU5HSk9FX1BKQVggPSB0cnVlOzwvc2NyaXB0Pgo8c2NyaXB0IHNyYz0iPD9waHAgZWNobyBqb2VfYXNzZXQoJ2Fzc2V0cy9qcy9wamF4LmpzJyk7ID8+P3Y9MS4wLjAiPjwvc2NyaXB0Pgo8P3BocCBlbmRpZjsgPz4KPD9waHAgaWYgKCR0aGlzLT5pcygnc2luZ2xlJykgJiYgJHRoaXMtPmFsbG93KCdjb21tZW50JykpOiA/Pgo8c2NyaXB0IHNyYz0iPD9waHAgZWNobyBqb2VfYXNzZXQoJ2Fzc2V0cy9qcy9vd28uanMnKTsgPz4/dj0xLjAuMCI+PC9zY3JpcHQ+Cjw/cGhwIGVuZGlmOyA/Pgo8P3BocCBpZiAoam9lX2dldCgnY29kZUhpZ2hsaWdodCcpID09PSAnMScgJiYgJHRoaXMtPmlzKCdzaW5nbGUnKSk6ID8+CjwhLS0gUHJpc20uanMg5Luj56CB6auY5LquIC0tPgo8P3BocCBpZiAoam9lX2dldCgnY29kZUxpbmVOdW1iZXJzJykgPT09ICcxJyk6ID8+CjxzY3JpcHQ+CiAgLy8g6KGM5Y+35o+S5Lu26ZyA6KaB5ZyoIFByaXNtIOmrmOS6ruWJjee7mSBwcmUg5re75YqgIGxpbmUtbnVtYmVycyDnsbsKICBkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCdET01Db250ZW50TG9hZGVkJywgZnVuY3Rpb24oKXsKICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJyNqb2UtY29udGVudCBwcmUsIC5qb2UtY29udGVudCBwcmUnKS5mb3JFYWNoKGZ1bmN0aW9uKHByZSl7CiAgICAgIHByZS5jbGFzc0xpc3QuYWRkKCdsaW5lLW51bWJlcnMnKTsKICAgIH0pOwogIH0pOwo8L3NjcmlwdD4KPD9waHAgZW5kaWY7ID8+CjxzY3JpcHQgc3JjPSJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvbnBtL3ByaXNtanNAMS4yOS4wL2NvbXBvbmVudHMvcHJpc20tY29yZS5taW4uanMiPjwvc2NyaXB0Pgo8c2NyaXB0IHNyYz0iaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L25wbS9wcmlzbWpzQDEuMjkuMC9wbHVnaW5zL2F1dG9sb2FkZXIvcHJpc20tYXV0b2xvYWRlci5taW4uanMiPjwvc2NyaXB0Pgo8P3BocCBpZiAoam9lX2dldCgnY29kZUxpbmVOdW1iZXJzJykgPT09ICcxJyk6ID8+CjxzY3JpcHQgc3JjPSJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvbnBtL3ByaXNtanNAMS4yOS4wL3BsdWdpbnMvbGluZS1udW1iZXJzL3ByaXNtLWxpbmUtbnVtYmVycy5taW4uanMiPjwvc2NyaXB0Pgo8P3BocCBlbmRpZjsgPz4KPHNjcmlwdCBzcmM9Ijw/cGhwIGVjaG8gam9lX2Fzc2V0KCdhc3NldHMvanMvcHJpc20tZXh0cmFzLmpzJyk7ID8+P3Y9MS4wLjAiPjwvc2NyaXB0Pgo8P3BocCBlbmRpZjsgPz4KPD9waHAgaWYgKGpvZV9nZXQoJ2FuYWx5dGljc0NvZGUnKSk6ID8+CjwhLS0g57uf6K6h5Luj56CBIC0tPgo8P3BocCBlY2hvIGpvZV9nZXQoJ2FuYWx5dGljc0NvZGUnKTsgPz4KPD9waHAgZW5kaWY7ID8+Cjw/cGhwICR0aGlzLT5mb290ZXIoKTsgPz4KPD9waHAgaWYgKGpvZV9nZXQoJ2N1c3RvbUpzJykpOiA/Pgo8c2NyaXB0Pjw/cGhwIGVjaG8gam9lX2dldCgnY3VzdG9tSnMnKTsgPz48L3NjcmlwdD4KPD9waHAgZW5kaWY7ID8+CjwhLS0gUVEv5b6u5L+h6Ziy57qiIC0tPgo8P3BocCBpZiAoam9lX2dldCgnYW50aVJlZCcpID09PSAnMScpOiA/Pgo8c2NyaXB0PgooZnVuY3Rpb24oKXsKICAgIHZhciB1YT1uYXZpZ2F0b3IudXNlckFnZW50LnRvTG93ZXJDYXNlKCk7CiAgICB2YXIgaXNRUT11YS5pbmRleE9mKCJxcS8iKT4tMSYmdWEuaW5kZXhPZigibXFxYnJvd3NlciIpPT09LTE7CiAgICB2YXIgaXNXeD11YS5pbmRleE9mKCJtaWNyb21lc3NlbmdlciIpPi0xOwogICAgaWYoIWlzUVEmJiFpc1d4KXJldHVybjsKICAgIHZhciBib3g9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgiZGl2Iik7CiAgICBib3guc3R5bGUuY3NzVGV4dD0icG9zaXRpb246Zml4ZWQ7aW5zZXQ6MDtiYWNrZ3JvdW5kOmxpbmVhci1ncmFkaWVudCgxMzVkZWcsIzY2N2VlYSwjNzY0YmEyKTt6LWluZGV4Ojk5OTk5O2Rpc3BsYXk6ZmxleDthbGlnbi1pdGVtczpjZW50ZXI7anVzdGlmeS1jb250ZW50OmNlbnRlcjtmb250LWZhbWlseTpzYW5zLXNlcmlmIjsKICAgIHZhciBpbm5lcj1kb2N1bWVudC5jcmVhdGVFbGVtZW50KCJkaXYiKTsKICAgIGlubmVyLnN0eWxlLmNzc1RleHQ9InRleHQtYWxpZ246Y2VudGVyO2NvbG9yOiNmZmY7cGFkZGluZzo0MHB4IjsKICAgIGlubmVyLmlubmVySFRNTD0nPGRpdiBzdHlsZT0iZm9udC1zaXplOjQ4cHg7bWFyZ2luLWJvdHRvbToyMHB4Ij7ij6s8L2Rpdj48aDIgc3R5bGU9ImZvbnQtc2l6ZToyMHB4O21hcmdpbi1ib3R0b206MTJweCI+6K+354K55Ye75Y+z5LiK6KeSPC9oMj48cCBzdHlsZT0iZm9udC1zaXplOjE0cHg7b3BhY2l0eTowLjg1O21hcmdpbi1ib3R0b206OHB4Ij7pgInmi6njgIzlnKjmtY/op4jlmajkuK3miZPlvIDjgI08L3A+PHAgc3R5bGU9ImZvbnQtc2l6ZToxMnB4O29wYWNpdHk6MC42Ij7ku6Xojrflvpfmm7Tlpb3nmoTorr/pl67kvZPpqow8L3A+JzsKICAgIGJveC5hcHBlbmRDaGlsZChpbm5lcik7CiAgICBib3guYWRkRXZlbnRMaXN0ZW5lcigiY2xpY2siLGZ1bmN0aW9uKCl7Ym94LnN0eWxlLmRpc3BsYXk9Im5vbmUifSk7CiAgICBkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGJveCk7Cn0pKCk7Cjwvc2NyaXB0Pgo8P3BocCBlbmRpZjsgPz4KPC9ib2R5Pgo8L2h0bWw+Cg==
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
+</div><!-- /.joe-wrapper -->
+
+<!-- 底部 -->
+<footer class="joe-footer">
+    <div class="joe-footer__inner">
+        <div class="joe-footer__col">
+            <div class="joe-footer__brand"><?php echo joe_esc(joe_get('logoText')) ?: $this->options->title(); ?></div>
+            <p class="joe-footer__desc"><?php $this->options->description(); ?></p>
+        </div>
+        <div class="joe-footer__col">
+            <h4 class="joe-footer__title">导航</h4>
+            <div class="joe-footer__links">
+                <?php
+                $nav = joe_get('navHtml');
+                if ($nav) echo $nav;
+                ?>
+            </div>
+        </div>
+        <div class="joe-footer__col">
+            <h4 class="joe-footer__title">关注</h4>
+            <div class="joe-footer__links">
+                <?php
+                $social = joe_get('authorSocial');
+                if ($social) {
+                    $lines = explode("\n", trim($social));
+                    foreach ($lines as $line) {
+                        $parts = explode('|', trim($line));
+                        if (count($parts) === 2) {
+                            echo '<a href="' . joe_esc($parts[1]) . '" target="_blank" rel="noopener noreferrer">' . htmlspecialchars(ucfirst($parts[0])) . '</a>';
+                        }
+                    }
+                }
+                ?>
+            </div>
+        </div>
+    </div>
+
+    <!-- 社交图标行 -->
+    <?php $footerSocial = joe_get('footerSocial'); if ($footerSocial): ?>
+    <div class="joe-footer__social-row">
+        <?php
+        $socialLines = explode("\n", trim($footerSocial));
+        foreach ($socialLines as $line) {
+            $parts = explode('|', trim($line));
+            if (count($parts) === 2) {
+                $icon = trim($parts[0]);
+                $url = trim($parts[1]);
+                echo '<a href="' . joe_esc($url) . '" class="joe-footer__social-item" target="_blank" rel="noopener noreferrer" title="' . htmlspecialchars(ucfirst($icon)) . '">';
+                echo joe_social_svg($icon);
+                echo '</a>';
+            }
+        }
+        ?>
+    </div>
+    <?php endif; ?>
+
+    <div class="joe-footer__bottom">
+        <?php $stats = joe_site_stats(); ?>
+        <div class="joe-footer__stats">
+            <span class="joe-footer__stat-item">
+                <svg viewBox="0 0 24 24"><path d="M4 4h16v16H4z" stroke="currentColor" stroke-width="2" fill="none"/><path d="M4 9h16M9 4v16" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+                文章 <span class="joe-footer__stat-num"><?php echo $stats['posts']; ?></span>
+            </span>
+            <span class="joe-footer__stat-item">
+                <svg viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-12.5 7.5L3 21l2-5.5A8.5 8.5 0 1 1 21 11.5Z" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+                评论 <span class="joe-footer__stat-num"><?php echo $stats['comments']; ?></span>
+            </span>
+            <span class="joe-footer__stat-item">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" fill="none"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+                运行 <span class="joe-footer__stat-num" id="joe-runtime" data-start="<?php echo $stats['siteStart']; ?>"><?php echo $stats['days']; ?> 天</span>
+            </span>
+        </div>
+        <div class="joe-footer__bottom-left">
+            <?php if (joe_get('footerLeft')): ?>
+            <div class="joe-footer__left-custom"><?php echo joe_esc(joe_get('footerLeft')); ?></div>
+            <?php else: ?>
+            <p>&copy; <?php echo date('Y'); ?> <?php $this->options->title(); ?> · Powered by Typecho · Theme KingJoe</p>
+            <?php endif; ?>
+            <?php if (joe_get('icp')): ?>
+            <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer"><?php joe_opt('icp'); ?></a></p>
+            <?php endif; ?>
+        </div>
+        <div class="joe-footer__bottom-right">
+            <?php if (joe_get('footerRight')): ?>
+            <div class="joe-footer__right-custom"><?php echo joe_esc(joe_get('footerRight')); ?></div>
+            <?php endif; ?>
+        </div>
+    </div>
+    <?php if (joe_get('sslIcon')): ?>
+    <div class="joe-footer__ssl">
+        <?php echo joe_get('sslIcon'); ?>
+    </div>
+    <?php endif; ?>
+</footer>
+
+<?php if (joe_get('musicPlayer') === '1' && joe_get('musicId')): ?>
+<!-- 全局音乐播放器 -->
+<div class="joe-music" id="joe-music" data-id="<?php joe_opt('musicId'); ?>" data-server="<?php joe_opt('musicServer'); ?>" data-type="<?php joe_opt('musicType'); ?>" data-autoplay="<?php echo joe_get('musicAutoPlay') === '1' ? '1' : '0'; ?>">
+    <button class="joe-music__toggle" id="joe-music-toggle" aria-label="打开音乐播放器">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path d="M9 18V5l12-2v13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="6" cy="18" r="3" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="18" cy="16" r="3" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+    </button>
+    <div class="joe-music__panel" id="joe-music-panel">
+        <div class="joe-music__cover" id="joe-music-cover"></div>
+        <div class="joe-music__info">
+            <div class="joe-music__title" id="joe-music-title">点击加载</div>
+            <div class="joe-music__artist" id="joe-music-artist"></div>
+        </div>
+        <div class="joe-music__controls">
+            <button class="joe-music__btn" id="joe-music-prev" aria-label="上一首">
+                <svg viewBox="0 0 24 24" width="16" height="16"><path d="M19 20 9 12l10-8v16Z" fill="currentColor"/><path d="M5 19V5" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+            </button>
+            <button class="joe-music__btn joe-music__play" id="joe-music-play" aria-label="播放">
+                <svg viewBox="0 0 24 24" width="20" height="20"><path d="M8 5v14l11-7Z" fill="currentColor"/></svg>
+            </button>
+            <button class="joe-music__btn" id="joe-music-next" aria-label="下一首">
+                <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 4 15 12l-10 8V4Z" fill="currentColor"/><path d="M19 5v14" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+            </button>
+        </div>
+        <button class="joe-music__close" id="joe-music-close" aria-label="关闭">
+            <svg viewBox="0 0 24 24" width="14" height="14"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+    </div>
+    <audio id="joe-music-audio"></audio>
+</div>
+<?php endif; ?>
+
+<!-- 返回顶部 -->
+<button class="joe-backtop" id="joe-backtop" aria-label="返回顶部" title="滚回顶部">
+    <span class="joe-backtop__text" id="joe-backtop-text">TOP</span>
+    <svg class="joe-backtop__progress" viewBox="0 0 44 44">
+        <circle cx="22" cy="22" r="20"/>
+    </svg>
+    <svg class="joe-backtop__arrow" viewBox="0 0 24 24" width="16" height="16"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<!-- 移动端底部导航 -->
+<nav class="joe-mobile-nav">
+    <div class="joe-mobile-nav__list">
+        <a href="<?php $this->options->siteUrl(); ?>" class="joe-mobile-nav__item<?php if ($this->is('index')) echo ' is-current'; ?>">
+            <svg viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1v-9.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" fill="none"/></svg>
+            首页
+        </a>
+        <?php
+        $cats = Typecho_Widget::widget('Widget_Metas_Category_List');
+        $hasCat = false;
+        while ($cats->next()): if (!$hasCat) $hasCat = true;
+        endwhile;
+        if ($hasCat):
+        ?>
+        <a href="<?php $this->options->siteUrl(); ?>archive" class="joe-mobile-nav__item<?php if ($this->is('archive')) echo ' is-current'; ?>">
+            <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+            分类
+        </a>
+        <?php endif; ?>
+        <button class="joe-mobile-nav__item joe-theme__toggle" aria-label="切换主题">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2" fill="none"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            主题
+        </button>
+        <button class="joe-mobile-nav__item joe-search__trigger" aria-label="搜索">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" fill="none"/><path d="M20 20l-3.3-3.3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            搜索
+        </button>
+    </div>
+</nav>
+
+<script src="<?php echo joe_asset('assets/js/main.js'); ?>?v=1.0.0"></script>
+<?php if (joe_get('pjaxToggle') === '1'): ?>
+<script>var KINGJOE_PJAX = true;</script>
+<script src="<?php echo joe_asset('assets/js/pjax.js'); ?>?v=1.0.0"></script>
+<?php endif; ?>
+<?php if ($this->is('single') && $this->allow('comment')): ?>
+<script src="<?php echo joe_asset('assets/js/owo.js'); ?>?v=1.0.0"></script>
+<?php endif; ?>
+<?php if (joe_get('codeHighlight') === '1' && $this->is('single')): ?>
+<!-- Prism.js 代码高亮 -->
+<?php if (joe_get('codeLineNumbers') === '1'): ?>
+<script>
+  // 行号插件需要在 Prism 高亮前给 pre 添加 line-numbers 类
+  document.addEventListener('DOMContentLoaded', function(){
+    document.querySelectorAll('#joe-content pre, .joe-content pre').forEach(function(pre){
+      pre.classList.add('line-numbers');
+    });
+  });
+</script>
+<?php endif; ?>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+<?php if (joe_get('codeLineNumbers') === '1'): ?>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+<?php endif; ?>
+<script src="<?php echo joe_asset('assets/js/prism-extras.js'); ?>?v=1.0.0"></script>
+<?php endif; ?>
+<?php if (joe_get('analyticsCode')): ?>
+<!-- 统计代码 -->
+<?php echo joe_get('analyticsCode'); ?>
+<?php endif; ?>
+<?php $this->footer(); ?>
+<?php if (joe_get('customJs')): ?>
+<script><?php echo joe_get('customJs'); ?></script>
+<?php endif; ?>
+<!-- QQ/微信防红 -->
+<?php if (joe_get('antiRed') === '1'): ?>
+<script>
+(function(){
+    var ua=navigator.userAgent.toLowerCase();
+    var isQQ=ua.indexOf("qq/")>-1&&ua.indexOf("mqqbrowser")===-1;
+    var isWx=ua.indexOf("micromessenger")>-1;
+    if(!isQQ&&!isWx)return;
+    var box=document.createElement("div");
+    box.style.cssText="position:fixed;inset:0;background:linear-gradient(135deg,#667eea,#764ba2);z-index:99999;display:flex;align-items:center;justify-content:center;font-family:sans-serif";
+    var inner=document.createElement("div");
+    inner.style.cssText="text-align:center;color:#fff;padding:40px";
+    inner.innerHTML='<div style="font-size:48px;margin-bottom:20px">⏫</div><h2 style="font-size:20px;margin-bottom:12px">请点击右上角</h2><p style="font-size:14px;opacity:0.85;margin-bottom:8px">选择「在浏览器中打开」</p><p style="font-size:12px;opacity:0.6">以获得更好的访问体验</p>';
+    box.appendChild(inner);
+    box.addEventListener("click",function(){box.style.display="none"});
+    document.body.appendChild(box);
+})();
+</script>
+<?php endif; ?>
+</body>
+</html>

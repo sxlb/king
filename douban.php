@@ -1,1 +1,104 @@
-PD9waHAKLyoqCiAqIOixhueTo+a4heWNlQogKgogKiBAcGFja2FnZSBjdXN0b20KICovCmlmICghZGVmaW5lZCgnX19UWVBFQ0hPX1JPT1RfRElSX18nKSkgZXhpdDsKJHRoaXMtPm5lZWQoJ2hlYWRlci5waHAnKTsKCiRkb3ViYW5JZCA9IGpvZV9nZXQoJ2RvdWJhbklkJyk7CiRoYXNEb3ViYW4gPSAoYm9vbCkkZG91YmFuSWQ7CgovLyDojrflj5blvZPliY3mv4DmtLvnmoQgdGFiCiRhY3RpdmVUYWIgPSBpc3NldCgkX0dFVFsndGFiJ10pICYmIGluX2FycmF5KCRfR0VUWyd0YWInXSwgWydib29rJywgJ21vdmllJywgJ211c2ljJ10pID8gJF9HRVRbJ3RhYiddIDogJ2Jvb2snOwoKJHRhYnMgPSBbCiAgICAnYm9vaycgID0+IFsnbmFtZScgPT4gJ+ivu+S5picsICdpY29uJyA9PiAn8J+TmiddLAogICAgJ21vdmllJyA9PiBbJ25hbWUnID0+ICfop4LlvbEnLCAnaWNvbicgPT4gJ/CfjqwnXSwKICAgICdtdXNpYycgPT4gWyduYW1lJyA9PiAn6Z+z5LmQJywgJ2ljb24nID0+ICfwn461J10sCl07CgokaXRlbXMgPSAkaGFzRG91YmFuID8gam9lX2RvdWJhbl9mZXRjaCgkZG91YmFuSWQsICRhY3RpdmVUYWIpIDogW107Cj8+Cgo8bWFpbiBjbGFzcz0iam9lLWNvbnRhaW5lciIgaWQ9Im1haW4iPgogICAgPGRpdiBjbGFzcz0iam9lLW1haW5fX3dyYXAgam9lLW1haW5fX3dyYXAtLWZ1bGwiPgogICAgICAgIDxkaXYgY2xhc3M9ImpvZS1tYWluIj4KICAgICAgICAgICAgPGFydGljbGUgY2xhc3M9ImpvZS1hcnRpY2xlIj4KICAgICAgICAgICAgICAgIDwhLS0g5aS06YOoIC0tPgogICAgICAgICAgICAgICAgPGhlYWRlciBjbGFzcz0iam9lLWRvdWJhbl9faGVhZCI+CiAgICAgICAgICAgICAgICAgICAgPGgxIGNsYXNzPSJqb2UtZG91YmFuX190aXRsZSI+PD9waHAgZWNobyBqb2VfZXNjKGpvZV9nZXQoJ2RvdWJhblRpdGxlJykgPzogJ+ixhueTo+a4heWNlScpOyA/PjwvaDE+CiAgICAgICAgICAgICAgICAgICAgPD9waHAgaWYgKCRoYXNEb3ViYW4pOiA/PgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzPSJqb2UtZG91YmFuX191c2VyIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCI+PHBhdGggZD0iTTIwIDIxdi0yYTQgNCAwIDAgMC00LTRIOGE0IDQgMCAwIDAtNCA0djIiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjciIHI9IjQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz48L3N2Zz4KICAgICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0iaHR0cHM6Ly93d3cuZG91YmFuLmNvbS9wZW9wbGUvPD9waHAgZWNobyBqb2VfZXNjKCRkb3ViYW5JZCk7ID8+LyIgdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9vcGVuZXIiPjw/cGhwIGVjaG8gam9lX2VzYygkZG91YmFuSWQpOyA/PiDnmoTosYbnk6M8L2E+CiAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgIDw/cGhwIGVuZGlmOyA/PgogICAgICAgICAgICAgICAgPC9oZWFkZXI+CgogICAgICAgICAgICAgICAgPD9waHAgaWYgKCRoYXNEb3ViYW4pOiA/PgogICAgICAgICAgICAgICAgPCEtLSBUYWIg5YiH5o2iIC0tPgogICAgICAgICAgICAgICAgPG5hdiBjbGFzcz0iam9lLWRvdWJhbl9fdGFicyI+CiAgICAgICAgICAgICAgICAgICAgPD9waHAgZm9yZWFjaCAoJHRhYnMgYXMgJGtleSA9PiAkdGFiKTogPz4KICAgICAgICAgICAgICAgICAgICA8YSBocmVmPSI/dGFiPTw/cGhwIGVjaG8gJGtleTsgPz4iIGNsYXNzPSJqb2UtZG91YmFuX190YWI8P3BocCBpZiAoJGFjdGl2ZVRhYiA9PT0gJGtleSkgZWNobyAnIGlzLWFjdGl2ZSc7ID8+Ij4KICAgICAgICAgICAgICAgICAgICAgICAgPD9waHAgZWNobyAkdGFiWyduYW1lJ107ID8+CiAgICAgICAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgICAgICAgIDw/cGhwIGVuZGZvcmVhY2g7ID8+CiAgICAgICAgICAgICAgICA8L25hdj4KCiAgICAgICAgICAgICAgICA8IS0tIOWGheWuueWMuiAtLT4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImpvZS1kb3ViYW5fX2JvZHkiPgogICAgICAgICAgICAgICAgICAgIDw/cGhwIGlmICghZW1wdHkoJGl0ZW1zKSk6ID8+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWRvdWJhbl9fZ3JpZCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGZvcmVhY2ggKCRpdGVtcyBhcyAkaXRlbSk6ID8+CiAgICAgICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9Ijw/cGhwIGVjaG8gam9lX2VzYygkaXRlbVsndXJsJ10gPz8gJyMnKTsgPz4iIGNsYXNzPSJqb2UtZG91YmFuX19pdGVtIiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtZG91YmFuX19jb3ZlciI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPD9waHAgaWYgKCFlbXB0eSgkaXRlbVsnY292ZXInXSkpOiA/PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPSI8P3BocCBlY2hvIGpvZV9lc2MoJGl0ZW1bJ2NvdmVyJ10pOyA/PiIgYWx0PSI8P3BocCBlY2hvIGpvZV9lc2MoJGl0ZW1bJ3RpdGxlJ10gPz8gJycpOyA/PiIgbG9hZGluZz0ibGF6eSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPD9waHAgZWxzZTogPz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iam9lLWRvdWJhbl9fY292ZXItcGxhY2Vob2xkZXIiPjw/cGhwIGVjaG8gbWJfc3Vic3RyKCRpdGVtWyd0aXRsZSddID8/ICcnLCAwLCAyKTsgPz48L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPD9waHAgZW5kaWY7ID8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPD9waHAgaWYgKCFlbXB0eSgkaXRlbVsncmF0aW5nJ10pKTogPz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iam9lLWRvdWJhbl9fcmF0aW5nIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPD9waHAgZWNobyBqb2VfZG91YmFuX3N0YXJzKCRpdGVtWydyYXRpbmcnXSk7ID8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJqb2UtZG91YmFuX19yYXRpbmctbnVtIj48P3BocCBlY2hvICRpdGVtWydyYXRpbmcnXTsgPz48L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGVuZGlmOyA/PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtZG91YmFuX19pbmZvIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDMgY2xhc3M9ImpvZS1kb3ViYW5fX2l0ZW0tdGl0bGUiPjw/cGhwIGVjaG8gam9lX2VzYygkaXRlbVsndGl0bGUnXSA/PyAnJyk7ID8+PC9oMz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8P3BocCBpZiAoIWVtcHR5KCRpdGVtWydpbmZvJ10pKTogPz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzcz0iam9lLWRvdWJhbl9faXRlbS1tZXRhIj48P3BocCBlY2hvIGpvZV9lc2MoJGl0ZW1bJ2luZm8nXSk7ID8+PC9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGVuZGlmOyA/PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGlmICghZW1wdHkoJGl0ZW1bJ2NvbW1lbnQnXSkpOiA/PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzPSJqb2UtZG91YmFuX19pdGVtLWNvbW1lbnQiPuOAjDw/cGhwIGVjaG8gam9lX2VzYygkaXRlbVsnY29tbWVudCddKTsgPz7jgI08L3A+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPD9waHAgZW5kaWY7ID8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgICAgICAgICAgICA8P3BocCBlbmRmb3JlYWNoOyA/PgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDw/cGhwIGVsc2VpZiAoZW1wdHkoJGl0ZW1zKSk6ID8+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWRvdWJhbl9fZW1wdHkiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3ZnIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4Ij48cmVjdCB4PSIyIiB5PSIzIiB3aWR0aD0iMjAiIGhlaWdodD0iMTgiIHJ4PSIyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjUiIGZpbGw9Im5vbmUiLz48cGF0aCBkPSJNMiA4aDIwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48L3N2Zz4KICAgICAgICAgICAgICAgICAgICAgICAgPHA+5pqC5peg5pS26JeP5pWw5o2uPC9wPgogICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzcz0iam9lLWRvdWJhbl9fZW1wdHktaGludCI+6K+356Gu6K6k6LGG55OjIElEIOaYr+WQpuato+ehru+8jOaIlueojeWQjumHjeivle+8iOaVsOaNruavjzblsI/ml7bnvJPlrZjkuIDmrKHvvIk8L3A+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPD9waHAgZW5kaWY7ID8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDw/cGhwIGVsc2U6ID8+CiAgICAgICAgICAgICAgICA8IS0tIOacqumFjee9riAtLT4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImpvZS1kb3ViYW5fX2VtcHR5Ij4KICAgICAgICAgICAgICAgICAgICA8c3ZnIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4Ij48cmVjdCB4PSIyIiB5PSIzIiB3aWR0aD0iMjAiIGhlaWdodD0iMTgiIHJ4PSIyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjUiIGZpbGw9Im5vbmUiLz48cGF0aCBkPSJNMiA4aDIwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48L3N2Zz4KICAgICAgICAgICAgICAgICAgICA8cD7mnKrphY3nva7osYbnk6PmuIXljZU8L3A+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3M9ImpvZS1kb3ViYW5fX2VtcHR5LWhpbnQiPuivt+WcqOOAjOaOp+WItuWPsCDihpIg5aSW6KeCIOKGkiDorr7nva7lpJbop4LjgI3kuK3loavlhpnkvaDnmoTosYbnk6PnlKjmiLcgSUQ8L3A+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDw/cGhwIGVuZGlmOyA/PgoKICAgICAgICAgICAgICAgIDw/cGhwICR0aGlzLT5uZWVkKCdjb21tZW50cy5waHAnKTsgPz4KICAgICAgICAgICAgPC9hcnRpY2xlPgogICAgICAgIDwvZGl2PgogICAgPC9kaXY+CjwvbWFpbj4KCjw/cGhwICR0aGlzLT5uZWVkKCdmb290ZXIucGhwJyk7ID8+Cg==
+<?php
+/**
+ * 豆瓣清单
+ *
+ * @package custom
+ */
+if (!defined('__TYPECHO_ROOT_DIR__')) exit;
+$this->need('header.php');
+
+$doubanId = joe_get('doubanId');
+$hasDouban = (bool)$doubanId;
+
+// 获取当前激活的 tab
+$activeTab = isset($_GET['tab']) && in_array($_GET['tab'], ['book', 'movie', 'music']) ? $_GET['tab'] : 'book';
+
+$tabs = [
+    'book'  => ['name' => '读书', 'icon' => '📚'],
+    'movie' => ['name' => '观影', 'icon' => '🎬'],
+    'music' => ['name' => '音乐', 'icon' => '🎵'],
+];
+
+$items = $hasDouban ? joe_douban_fetch($doubanId, $activeTab) : [];
+?>
+
+<main class="joe-container" id="main">
+    <div class="joe-main__wrap joe-main__wrap--full">
+        <div class="joe-main">
+            <article class="joe-article">
+                <!-- 头部 -->
+                <header class="joe-douban__head">
+                    <h1 class="joe-douban__title"><?php echo joe_esc(joe_get('doubanTitle') ?: '豆瓣清单'); ?></h1>
+                    <?php if ($hasDouban): ?>
+                    <p class="joe-douban__user">
+                        <svg viewBox="0 0 24 24" width="14" height="14"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="12" cy="7" r="4" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+                        <a href="https://www.douban.com/people/<?php echo joe_esc($doubanId); ?>/" target="_blank" rel="noopener"><?php echo joe_esc($doubanId); ?> 的豆瓣</a>
+                    </p>
+                    <?php endif; ?>
+                </header>
+
+                <?php if ($hasDouban): ?>
+                <!-- Tab 切换 -->
+                <nav class="joe-douban__tabs">
+                    <?php foreach ($tabs as $key => $tab): ?>
+                    <a href="?tab=<?php echo $key; ?>" class="joe-douban__tab<?php if ($activeTab === $key) echo ' is-active'; ?>">
+                        <?php echo $tab['name']; ?>
+                    </a>
+                    <?php endforeach; ?>
+                </nav>
+
+                <!-- 内容区 -->
+                <div class="joe-douban__body">
+                    <?php if (!empty($items)): ?>
+                    <div class="joe-douban__grid">
+                        <?php foreach ($items as $item): ?>
+                        <a href="<?php echo joe_esc($item['url'] ?? '#'); ?>" class="joe-douban__item" target="_blank" rel="noopener">
+                            <div class="joe-douban__cover">
+                                <?php if (!empty($item['cover'])): ?>
+                                <img src="<?php echo joe_esc($item['cover']); ?>" alt="<?php echo joe_esc($item['title'] ?? ''); ?>" loading="lazy">
+                                <?php else: ?>
+                                <span class="joe-douban__cover-placeholder"><?php echo mb_substr($item['title'] ?? '', 0, 2); ?></span>
+                                <?php endif; ?>
+                                <?php if (!empty($item['rating'])): ?>
+                                <span class="joe-douban__rating">
+                                    <?php echo joe_douban_stars($item['rating']); ?>
+                                    <span class="joe-douban__rating-num"><?php echo $item['rating']; ?></span>
+                                </span>
+                                <?php endif; ?>
+                            </div>
+                            <div class="joe-douban__info">
+                                <h3 class="joe-douban__item-title"><?php echo joe_esc($item['title'] ?? ''); ?></h3>
+                                <?php if (!empty($item['info'])): ?>
+                                <p class="joe-douban__item-meta"><?php echo joe_esc($item['info']); ?></p>
+                                <?php endif; ?>
+                                <?php if (!empty($item['comment'])): ?>
+                                <p class="joe-douban__item-comment">「<?php echo joe_esc($item['comment']); ?>」</p>
+                                <?php endif; ?>
+                            </div>
+                        </a>
+                        <?php endforeach; ?>
+                    </div>
+                    <?php elseif (empty($items)): ?>
+                    <div class="joe-douban__empty">
+                        <svg viewBox="0 0 24 24" width="48" height="48"><rect x="2" y="3" width="20" height="18" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M2 8h20" stroke="currentColor" stroke-width="1.5"/></svg>
+                        <p>暂无收藏数据</p>
+                        <p class="joe-douban__empty-hint">请确认豆瓣 ID 是否正确，或稍后重试（数据每6小时缓存一次）</p>
+                    </div>
+                    <?php endif; ?>
+                </div>
+                <?php else: ?>
+                <!-- 未配置 -->
+                <div class="joe-douban__empty">
+                    <svg viewBox="0 0 24 24" width="48" height="48"><rect x="2" y="3" width="20" height="18" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M2 8h20" stroke="currentColor" stroke-width="1.5"/></svg>
+                    <p>未配置豆瓣清单</p>
+                    <p class="joe-douban__empty-hint">请在「控制台 → 外观 → 设置外观」中填写你的豆瓣用户 ID</p>
+                </div>
+                <?php endif; ?>
+
+                <?php $this->need('comments.php'); ?>
+            </article>
+        </div>
+    </div>
+</main>
+
+<?php $this->need('footer.php'); ?>

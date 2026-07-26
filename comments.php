@@ -1,1 +1,104 @@
-PD9waHAgaWYgKCFkZWZpbmVkKCdfX1RZUEVDSE9fUk9PVF9ESVJfXycpKSBleGl0OyA/Pgo8P3BocCAvKiogQHZhciBXaWRnZXRfQXJjaGl2ZSAkdGhpcyAqLyA/Pgo8P3BocCBpZiAoJHRoaXMtPmFsbG93KCdjb21tZW50JykpOiA/Pgo8c2VjdGlvbiBjbGFzcz0iam9lLWNvbW1lbnRzIiBpZD0iY29tbWVudHMiPgogICAgPGRpdiBjbGFzcz0iam9lLXNlY3Rpb25fX2hlYWQiPgogICAgICAgIDxoMiBjbGFzcz0iam9lLXNlY3Rpb25fX3RpdGxlIj48c3BhbiBjbGFzcz0iam9lLXNlY3Rpb25fX2JhciI+PC9zcGFuPuivhOiuujwvaDI+CiAgICA8L2Rpdj4KCiAgICA8P3BocCAkdGhpcy0+Y29tbWVudHMoKS0+dG8oJGNvbW1lbnRzKTsgPz4KICAgIDw/cGhwIGlmICgkY29tbWVudHMtPmhhdmUoKSk6ID8+CiAgICA8b2wgY2xhc3M9ImpvZS1jb21tZW50c19fbGlzdCI+CiAgICAgICAgPD9waHAgd2hpbGUgKCRjb21tZW50cy0+bmV4dCgpKTogPz4KICAgICAgICA8P3BocAogICAgICAgIC8vIOengeWvhuivhOiuuuWkhOeQhu+8mumdnuWNmuS4uy/kvZzogIXkuI3lj6/op4EKICAgICAgICAkaXNQcml2YXRlID0gam9lX2lzX3ByaXZhdGVfY29tbWVudCgkY29tbWVudHMtPmNvbnRlbnQpOwogICAgICAgICRpc093bmVyID0gJHRoaXMtPnVzZXItPmhhc0xvZ2luKCkgJiYgKCR0aGlzLT51c2VyLT51aWQgPT09ICRjb21tZW50cy0+YXV0aG9ySWQgfHwgJHRoaXMtPnVzZXItPnBhc3MoJ2FkbWluaXN0cmF0b3InLCB0cnVlKSk7CiAgICAgICAgaWYgKCRpc1ByaXZhdGUgJiYgISRpc093bmVyKSBjb250aW51ZTsKICAgICAgICA/PgogICAgICAgIDxsaSBjbGFzcz0iam9lLWNvbW1lbnQ8P3BocCBpZiAoJGlzUHJpdmF0ZSkgZWNobyAnIGlzLXByaXZhdGUnOyA/PiIgaWQ9Ijw/cGhwICRjb21tZW50cy0+dGhlSWQoKTsgPz4iPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtY29tbWVudF9fYXZhdGFyIj4KICAgICAgICAgICAgICAgIDw/cGhwICRjb21tZW50cy0+Z3JhdmF0YXIoNDgpOyA/PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWNvbW1lbnRfX2JvZHkiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWNvbW1lbnRfX2hlYWQiPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJqb2UtY29tbWVudF9fYXV0aG9yIj48P3BocCAkY29tbWVudHMtPmF1dGhvcigpOyA/Pjwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8P3BocCBpZiAoJGlzUHJpdmF0ZSk6ID8+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImpvZS1jb21tZW50X19wcml2YXRlLWJhZGdlIiB0aXRsZT0i5LuF5Y2a5Li75Y+v6KeBIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiI+PHJlY3QgeD0iMyIgeT0iMTEiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxMSIgcng9IjIiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz48cGF0aCBkPSJNNyAxMVY3YTUgNSAwIDEgMSAxMCAwdjQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz48L3N2Zz4KICAgICAgICAgICAgICAgICAgICAgICAg56eB5a+GCiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDw/cGhwIGVuZGlmOyA/PgogICAgICAgICAgICAgICAgICAgIDw/cGhwIGlmICghJGNvbW1lbnRzLT5hdXRob3JJZCk6ID8+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImpvZS1jb21tZW50X191YSI+PD9waHAgZWNobyBqb2VfdXNlcl9hZ2VudF9iYWRnZSgkY29tbWVudHMtPmFnZW50KTsgPz48L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPD9waHAgZW5kaWY7ID8+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImpvZS1jb21tZW50X19kYXRlIj48P3BocCAkY29tbWVudHMtPmRhdGUoJ1ktbS1kIEg6aScpOyA/Pjwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWNvbW1lbnRfX3RleHQiPgogICAgICAgICAgICAgICAgICAgIDw/cGhwIGlmICgkaXNQcml2YXRlICYmICEkaXNPd25lcik6ID8+CiAgICAgICAgICAgICAgICAgICAgPGVtIGNsYXNzPSJqb2UtY29tbWVudF9fcHJpdmF0ZS1oaW50Ij7or6Xor4TorrrkuLrnp4Hlr4bor4TorrrvvIzku4XljZrkuLvlj6/op4E8L2VtPgogICAgICAgICAgICAgICAgICAgIDw/cGhwIGVsc2U6ID8+CiAgICAgICAgICAgICAgICAgICAgPD9waHAgZWNobyBqb2Vfb3dvX3BhcnNlKCRpc1ByaXZhdGUgPyBqb2VfdW53cmFwX3ByaXZhdGUoJGNvbW1lbnRzLT5jb250ZW50KSA6ICRjb21tZW50cy0+Y29udGVudCk7ID8+CiAgICAgICAgICAgICAgICAgICAgPD9waHAgZW5kaWY7ID8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImpvZS1jb21tZW50X19hY3Rpb24iPgogICAgICAgICAgICAgICAgICAgIDw/cGhwICRjb21tZW50cy0+cmVwbHkoJzxzcGFuIGNsYXNzPSJqb2UtY29tbWVudF9fcmVwbHkiPuWbnuWkjTwvc3Bhbj4nKTsgPz4KICAgICAgICAgICAgICAgICAgICA8P3BocCBpZiAoam9lX2dldCgnY29tbWVudExpa2UnKSAhPT0gJzAnKTogPz4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIGNsYXNzPSJqb2UtY29tbWVudF9fbGlrZSIgZGF0YS1jb2lkPSI8P3BocCBlY2hvICRjb21tZW50cy0+Y29pZDsgPz4iIGFyaWEtbGFiZWw9IueCuei1niI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMTQiIGhlaWdodD0iMTQiPjxwYXRoIGQ9Ik0yMC44NCA0LjYxYTUuNSA1LjUgMCAwIDAtNy43OCAwTDEyIDUuNjdsLTEuMDYtMS4wNmE1LjUgNS41IDAgMCAwLTcuNzggNy43OGwxLjA2IDEuMDZMMTIgMjEuMjNsNy43OC03Ljc4IDEuMDYtMS4wNmE1LjUgNS41IDAgMCAwIDAtNy43OHoiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz48L3N2Zz4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImpvZS1jb21tZW50X19saWtlLWNvdW50Ij48P3BocCBlY2hvIGpvZV9jb21tZW50X2xpa2VzKCRjb21tZW50cy0+Y29pZCk7ID8+PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgIDw/cGhwIGVuZGlmOyA/PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8P3BocCBpZiAoJGNvbW1lbnRzLT5jaGlsZHJlbik6ID8+CiAgICAgICAgICAgICAgICA8b2wgY2xhc3M9ImpvZS1jb21tZW50X19jaGlsZHJlbiI+PD9waHAgJGNvbW1lbnRzLT50aHJlYWRlZENvbW1lbnRzKCk7ID8+PC9vbD4KICAgICAgICAgICAgICAgIDw/cGhwIGVuZGlmOyA/PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2xpPgogICAgICAgIDw/cGhwIGVuZHdoaWxlOyA/PgogICAgPC9vbD4KICAgIDw/cGhwICRjb21tZW50cy0+cGFnZU5hdignwqsnLCAnwrsnLCAxLCAnLi4uJywgWyd3cmFwVGFnJyA9PiAnbmF2JywgJ3dyYXBDbGFzcycgPT4gJ2pvZS1wYWdpbmF0aW9uJ10pOyA/PgogICAgPD9waHAgZWxzZTogPz4KICAgIDxwIGNsYXNzPSJqb2UtZW1wdHkiPui/mOayoeacieivhOiuuu+8jOW/q+adpeaKouaymeWPkeWQp++9njwvcD4KICAgIDw/cGhwIGVuZGlmOyA/PgoKICAgIDw/cGhwIGlmICgkdGhpcy0+YWxsb3coJ2NvbW1lbnQnKSk6ID8+CiAgICA8ZGl2IGNsYXNzPSJqb2UtY29tbWVudGJveCIgaWQ9InJlc3BvbmQiPgogICAgICAgIDxoMyBjbGFzcz0iam9lLWNvbW1lbnRib3hfX3RpdGxlIj48P3BocCBfZSgn5Y+R6KGo6K+E6K66Jyk7ID8+IDxzbWFsbD48P3BocCAkY29tbWVudHMtPmNhbmNlbFJlcGx5KCk7ID8+PC9zbWFsbD48L2gzPgogICAgICAgIDxmb3JtIG1ldGhvZD0icG9zdCIgYWN0aW9uPSI8P3BocCAkdGhpcy0+Y29tbWVudFVybCgpOyA/PiIgY2xhc3M9ImpvZS1jb21tZW50Ym94X19mb3JtIiBpZD0iY29tbWVudC1mb3JtIj4KICAgICAgICAgICAgPD9waHAgaWYgKCR0aGlzLT51c2VyLT5oYXNMb2dpbigpKTogPz4KICAgICAgICAgICAgPHAgY2xhc3M9ImpvZS1jb21tZW50Ym94X19oaW50Ij4KICAgICAgICAgICAgICAgIOW3sueZu+W9lTxhIGhyZWY9Ijw/cGhwICR0aGlzLT5vcHRpb25zLT5wcm9maWxlVXJsKCk7ID8+Ij48P3BocCAkdGhpcy0+dXNlci0+c2NyZWVuTmFtZSgpOyA/PjwvYT4gwrcKICAgICAgICAgICAgICAgIDxhIGhyZWY9Ijw/cGhwICR0aGlzLT5vcHRpb25zLT5sb2dvdXRVcmwoKTsgPz4iPumAgOWHujwvYT4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8P3BocCBlbHNlOiA/PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtY29tbWVudGJveF9fZmllbGRzIj4KICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJ0ZXh0IiBuYW1lPSJhdXRob3IiIHBsYWNlaG9sZGVyPSLmmLXnp7AgKiIgY2xhc3M9ImpvZS1pbnB1dCIgdmFsdWU9Ijw/cGhwICR0aGlzLT5yZW1lbWJlcignYXV0aG9yJyk7ID8+IiByZXF1aXJlZD4KICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJlbWFpbCIgbmFtZT0ibWFpbCIgcGxhY2Vob2xkZXI9IumCrueusSAqIiBjbGFzcz0iam9lLWlucHV0IiB2YWx1ZT0iPD9waHAgJHRoaXMtPnJlbWVtYmVyKCdtYWlsJyk7ID8+IiA8P3BocCBpZiAoJHRoaXMtPm9wdGlvbnMtPmNvbW1lbnRzUmVxdWlyZU1haWwpIGVjaG8gJ3JlcXVpcmVkJzsgPz4+CiAgICAgICAgICAgICAgICA8aW5wdXQgdHlwZT0idXJsIiBuYW1lPSJ1cmwiIHBsYWNlaG9sZGVyPSLnvZHlnYAiIGNsYXNzPSJqb2UtaW5wdXQiIHZhbHVlPSI8P3BocCAkdGhpcy0+cmVtZW1iZXIoJ3VybCcpOyA/PiIgPD9waHAgaWYgKCR0aGlzLT5vcHRpb25zLT5jb21tZW50c1JlcXVpcmVVUkwpIGVjaG8gJ3JlcXVpcmVkJzsgPz4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8P3BocCBlbmRpZjsgPz4KICAgICAgICAgICAgPHRleHRhcmVhIG5hbWU9InRleHQiIGlkPSJjb21tZW50LXRleHRhcmVhIiBjbGFzcz0iam9lLXRleHRhcmVhIiBwbGFjZWhvbGRlcj0i6K+054K55LuA5LmI5ZCn77yM5pSv5oyB5Z+656GAIE1hcmtkb3duIOivreazlSIgcmVxdWlyZWQ+PD9waHAgJHRoaXMtPnJlbWVtYmVyKCd0ZXh0Jyk7ID8+PC90ZXh0YXJlYT4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWNvbW1lbnRib3hfX2Zvb3QiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWNvbW1lbnRib3hfX3Rvb2xzIj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtdG9vbGJhciIgZGF0YS10YXJnZXQ9IiNjb21tZW50LXRleHRhcmVhIj48L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2Utb3dvIiBkYXRhLXRhcmdldD0iI2NvbW1lbnQtdGV4dGFyZWEiPjwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtY29tbWVudGJveF9fYWN0aW9ucyI+CiAgICAgICAgICAgICAgICAgICAgPD9waHAgaWYgKGpvZV9nZXQoJ3ByaXZhdGVDb21tZW50JykgIT09ICcwJyk6ID8+CiAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzPSJqb2UtcHJpdmF0ZS1sYWJlbCIgdGl0bGU9IuWLvumAieWQjuS7heWNmuS4u+WPr+ingSI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJjaGVja2JveCIgbmFtZT0icHJpdmF0ZV9jb21tZW50IiB2YWx1ZT0iMSIgY2xhc3M9ImpvZS1wcml2YXRlLWNoZWNrIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImpvZS1wcml2YXRlLWljb24iPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCI+PHJlY3QgeD0iMyIgeT0iMTEiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxMSIgcng9IjIiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz48cGF0aCBkPSJNNyAxMVY3YTUgNSAwIDEgMSAxMCAwdjQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz48L3N2Zz4KICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICDnp4Hlr4YKICAgICAgICAgICAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgICAgICAgICAgIDw/cGhwIGVuZGlmOyA/PgogICAgICAgICAgICAgICAgICAgIDxidXR0b24gdHlwZT0ic3VibWl0IiBjbGFzcz0iam9lLWJ0biBqb2UtYnRuLS1wcmltYXJ5Ij7lj5Hooajor4Torro8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Zvcm0+CiAgICA8L2Rpdj4KICAgIDw/cGhwIGVuZGlmOyA/Pgo8L3NlY3Rpb24+Cjw/cGhwIGVuZGlmOyA/Pgo=
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
+<?php /** @var Widget_Archive $this */ ?>
+<?php if ($this->allow('comment')): ?>
+<section class="joe-comments" id="comments">
+    <div class="joe-section__head">
+        <h2 class="joe-section__title"><span class="joe-section__bar"></span>评论</h2>
+    </div>
+
+    <?php $this->comments()->to($comments); ?>
+    <?php if ($comments->have()): ?>
+    <ol class="joe-comments__list">
+        <?php while ($comments->next()): ?>
+        <?php
+        // 私密评论处理：非博主/作者不可见
+        $isPrivate = joe_is_private_comment($comments->content);
+        $isOwner = $this->user->hasLogin() && ($this->user->uid === $comments->authorId || $this->user->pass('administrator', true));
+        if ($isPrivate && !$isOwner) continue;
+        ?>
+        <li class="joe-comment<?php if ($isPrivate) echo ' is-private'; ?>" id="<?php $comments->theId(); ?>">
+            <div class="joe-comment__avatar">
+                <?php $comments->gravatar(48); ?>
+            </div>
+            <div class="joe-comment__body">
+                <div class="joe-comment__head">
+                    <span class="joe-comment__author"><?php $comments->author(); ?></span>
+                    <?php if ($isPrivate): ?>
+                    <span class="joe-comment__private-badge" title="仅博主可见">
+                        <svg viewBox="0 0 24 24" width="12" height="12"><rect x="3" y="11" width="18" height="11" rx="2" stroke="currentColor" stroke-width="2" fill="none"/><path d="M7 11V7a5 5 0 1 1 10 0v4" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+                        私密
+                    </span>
+                    <?php endif; ?>
+                    <?php if (!$comments->authorId): ?>
+                    <span class="joe-comment__ua"><?php echo joe_user_agent_badge($comments->agent); ?></span>
+                    <?php endif; ?>
+                    <span class="joe-comment__date"><?php $comments->date('Y-m-d H:i'); ?></span>
+                </div>
+                <div class="joe-comment__text">
+                    <?php if ($isPrivate && !$isOwner): ?>
+                    <em class="joe-comment__private-hint">该评论为私密评论，仅博主可见</em>
+                    <?php else: ?>
+                    <?php echo joe_owo_parse($isPrivate ? joe_unwrap_private($comments->content) : $comments->content); ?>
+                    <?php endif; ?>
+                </div>
+                <div class="joe-comment__action">
+                    <?php $comments->reply('<span class="joe-comment__reply">回复</span>'); ?>
+                    <?php if (joe_get('commentLike') !== '0'): ?>
+                    <button class="joe-comment__like" data-coid="<?php echo $comments->coid; ?>" aria-label="点赞">
+                        <svg viewBox="0 0 24 24" width="14" height="14"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+                        <span class="joe-comment__like-count"><?php echo joe_comment_likes($comments->coid); ?></span>
+                    </button>
+                    <?php endif; ?>
+                </div>
+                <?php if ($comments->children): ?>
+                <ol class="joe-comment__children"><?php $comments->threadedComments(); ?></ol>
+                <?php endif; ?>
+            </div>
+        </li>
+        <?php endwhile; ?>
+    </ol>
+    <?php $comments->pageNav('«', '»', 1, '...', ['wrapTag' => 'nav', 'wrapClass' => 'joe-pagination']); ?>
+    <?php else: ?>
+    <p class="joe-empty">还没有评论，快来抢沙发吧～</p>
+    <?php endif; ?>
+
+    <?php if ($this->allow('comment')): ?>
+    <div class="joe-commentbox" id="respond">
+        <h3 class="joe-commentbox__title"><?php _e('发表评论'); ?> <small><?php $comments->cancelReply(); ?></small></h3>
+        <form method="post" action="<?php $this->commentUrl(); ?>" class="joe-commentbox__form" id="comment-form">
+            <?php if ($this->user->hasLogin()): ?>
+            <p class="joe-commentbox__hint">
+                已登录<a href="<?php $this->options->profileUrl(); ?>"><?php $this->user->screenName(); ?></a> ·
+                <a href="<?php $this->options->logoutUrl(); ?>">退出</a>
+            </p>
+            <?php else: ?>
+            <div class="joe-commentbox__fields">
+                <input type="text" name="author" placeholder="昵称 *" class="joe-input" value="<?php $this->remember('author'); ?>" required>
+                <input type="email" name="mail" placeholder="邮箱 *" class="joe-input" value="<?php $this->remember('mail'); ?>" <?php if ($this->options->commentsRequireMail) echo 'required'; ?>>
+                <input type="url" name="url" placeholder="网址" class="joe-input" value="<?php $this->remember('url'); ?>" <?php if ($this->options->commentsRequireURL) echo 'required'; ?>>
+            </div>
+            <?php endif; ?>
+            <textarea name="text" id="comment-textarea" class="joe-textarea" placeholder="说点什么吧，支持基础 Markdown 语法" required><?php $this->remember('text'); ?></textarea>
+            <div class="joe-commentbox__foot">
+                <div class="joe-commentbox__tools">
+                    <div class="joe-toolbar" data-target="#comment-textarea"></div>
+                    <div class="joe-owo" data-target="#comment-textarea"></div>
+                </div>
+                <div class="joe-commentbox__actions">
+                    <?php if (joe_get('privateComment') !== '0'): ?>
+                    <label class="joe-private-label" title="勾选后仅博主可见">
+                        <input type="checkbox" name="private_comment" value="1" class="joe-private-check">
+                        <span class="joe-private-icon">
+                            <svg viewBox="0 0 24 24" width="14" height="14"><rect x="3" y="11" width="18" height="11" rx="2" stroke="currentColor" stroke-width="2" fill="none"/><path d="M7 11V7a5 5 0 1 1 10 0v4" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+                        </span>
+                        私密
+                    </label>
+                    <?php endif; ?>
+                    <button type="submit" class="joe-btn joe-btn--primary">发表评论</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <?php endif; ?>
+</section>
+<?php endif; ?>

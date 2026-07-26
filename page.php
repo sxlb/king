@@ -16,6 +16,7 @@
                 <?php endif; ?>
             </article>
         </div>
+
         <?php $this->need('sidebar.php'); ?>
     </div>
 </main>

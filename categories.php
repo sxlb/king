@@ -1,1 +1,197 @@
-PD9waHAKLyoqCiAqIOWIhuexu+axh+aAu+mhtemdouaooeadvwogKgogKiBAcGFja2FnZSBLaW5nSm9lCiAqCiAqIOS9v+eUqOaWueazle+8muWIm+W7uueLrOeri+mhtemdoiDihpIg6YCJ5oup44CM5YiG57G75rGH5oC744CN5qih5p2/CiAqLwppZiAoIWRlZmluZWQoJ19fVFlQRUNIT19ST09UX0RJUl9fJykpIGV4aXQ7CiR0aGlzLT5uZWVkKCdoZWFkZXIucGhwJyk7Cj8+Cgo8bWFpbiBjbGFzcz0iam9lLWNvbnRhaW5lciIgaWQ9Im1haW4iPgogICAgPGRpdiBjbGFzcz0iam9lLW1haW5fX3dyYXAiPgogICAgICAgIDxkaXYgY2xhc3M9ImpvZS1tYWluIj4KCiAgICAgICAgICAgIDwhLS0g6aG16Z2i5aS06YOoIC0tPgogICAgICAgICAgICA8c2VjdGlvbiBjbGFzcz0iam9lLXBhZ2UtaGVhZGVyIj4KICAgICAgICAgICAgICAgIDxoMSBjbGFzcz0iam9lLXBhZ2UtaGVhZGVyX190aXRsZSI+CiAgICAgICAgICAgICAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZD0iTTIyIDE5YTIgMiAwIDAxLTIgMkg0YTIgMiAwIDAxLTItMlY1YTIgMiAwIDAxMi0yaDVsMiAzaDlhMiAyIDAgMDEyIDJ6IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PC9zdmc+CiAgICAgICAgICAgICAgICAgICAgPD9waHAgJHRoaXMtPnRpdGxlKCk7ID8+CiAgICAgICAgICAgICAgICA8L2gxPgogICAgICAgICAgICAgICAgPD9waHAgaWYgKCR0aGlzLT5maWVsZHMtPmRlc2MpOiA/PgogICAgICAgICAgICAgICAgPHAgY2xhc3M9ImpvZS1wYWdlLWhlYWRlcl9fZGVzYyI+PD9waHAgJHRoaXMtPmZpZWxkcy0+ZGVzYygpOyA/PjwvcD4KICAgICAgICAgICAgICAgIDw/cGhwIGVuZGlmOyA/PgogICAgICAgICAgICAgICAgPD9waHAKICAgICAgICAgICAgICAgIC8vIOe7n+iuoQogICAgICAgICAgICAgICAgJGNhdHNXaWRnZXQgPSBUeXBlY2hvX1dpZGdldDo6d2lkZ2V0KCdXaWRnZXRfTWV0YXNfQ2F0ZWdvcnlfTGlzdCcpOwogICAgICAgICAgICAgICAgJGNhdENvdW50ID0gMDsKICAgICAgICAgICAgICAgICR0b3RhbFBvc3RzID0gMDsKICAgICAgICAgICAgICAgICRhbGxDYXRzID0gW107CiAgICAgICAgICAgICAgICB3aGlsZSAoJGNhdHNXaWRnZXQtPm5leHQoKSkgewogICAgICAgICAgICAgICAgICAgICRjYXRDb3VudCsrOwogICAgICAgICAgICAgICAgICAgICR0b3RhbFBvc3RzICs9ICRjYXRzV2lkZ2V0LT5jb3VudDsKICAgICAgICAgICAgICAgICAgICAkYWxsQ2F0c1tdID0gWwogICAgICAgICAgICAgICAgICAgICAgICAnbWlkJyA9PiAkY2F0c1dpZGdldC0+bWlkLAogICAgICAgICAgICAgICAgICAgICAgICAnbmFtZScgPT4gJGNhdHNXaWRnZXQtPm5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgICdzbHVnJyA9PiAkY2F0c1dpZGdldC0+c2x1ZywKICAgICAgICAgICAgICAgICAgICAgICAgJ2NvdW50JyA9PiAkY2F0c1dpZGdldC0+Y291bnQsCiAgICAgICAgICAgICAgICAgICAgICAgICdwZXJtYWxpbmsnID0+ICRjYXRzV2lkZ2V0LT5wZXJtYWxpbmssCiAgICAgICAgICAgICAgICAgICAgICAgICdkZXNjcmlwdGlvbicgPT4gJGNhdHNXaWRnZXQtPmRlc2NyaXB0aW9uLAogICAgICAgICAgICAgICAgICAgIF07CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICA/PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLXBhZ2UtaGVhZGVyX19zdGF0cyI+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImpvZS1wYWdlLWhlYWRlcl9fc3RhdCI+PD9waHAgZWNobyAkY2F0Q291bnQ7ID8+IOS4quWIhuexuzwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iam9lLXBhZ2UtaGVhZGVyX19zZXAiPsK3PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJqb2UtcGFnZS1oZWFkZXJfX3N0YXQiPuWFsSA8P3BocCBlY2hvICR0b3RhbFBvc3RzOyA/PiDnr4fmlofnq6A8L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICAgICAgPCEtLSDliIbnsbvliJfooaggLS0+CiAgICAgICAgICAgIDxzZWN0aW9uIGNsYXNzPSJqb2UtY2F0bGlzdCI+CiAgICAgICAgICAgICAgICA8P3BocCBpZiAoJGNhdENvdW50ID4gMCk6ID8+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtY2F0bGlzdF9fZ3JpZCI+CiAgICAgICAgICAgICAgICAgICAgPD9waHAgZm9yZWFjaCAoJGFsbENhdHMgYXMgJGNhdCk6ID8+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWNhdGxpc3RfX2l0ZW0iPgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtY2F0bGlzdF9faW5mbyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDMgY2xhc3M9ImpvZS1jYXRsaXN0X19uYW1lIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPSI8P3BocCBlY2hvICRjYXRbJ3Blcm1hbGluayddOyA/PiI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiPjxwYXRoIGQ9Ik0yMiAxOWEyIDIgMCAwMS0yIDJINGEyIDIgMCAwMS0yLTJWNWEyIDIgMCAwMTItMmg1bDIgM2g5YTIgMiAwIDAxMiAyeiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8P3BocCBlY2hvIGh0bWxzcGVjaWFsY2hhcnMoJGNhdFsnbmFtZSddKTsgPz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2gzPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPD9waHAgaWYgKCRjYXRbJ2Rlc2NyaXB0aW9uJ10pOiA/PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3M9ImpvZS1jYXRsaXN0X19kZXNjIj48P3BocCBlY2hvIGh0bWxzcGVjaWFsY2hhcnMoJGNhdFsnZGVzY3JpcHRpb24nXSk7ID8+PC9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPD9waHAgZW5kaWY7ID8+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtY2F0bGlzdF9fbWV0YSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iam9lLWNhdGxpc3RfX2NvdW50Ij48P3BocCBlY2hvICRjYXRbJ2NvdW50J107ID8+IOevhzwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9Ijw/cGhwIGVjaG8gJGNhdFsncGVybWFsaW5rJ107ID8+IiBjbGFzcz0iam9lLWNhdGxpc3RfX2xpbmsiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOa1j+iniOWFqOmDqAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMTQiIGhlaWdodD0iMTQiPjxwYXRoIGQ9Ik01IDEyaDE0TTEyIDVsNyA3LTcgNyIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PC9zdmc+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDw/cGhwIGVuZGZvcmVhY2g7ID8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDw/cGhwIGVsc2U6ID8+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtZW1wdHkiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImpvZS1lbXB0eV9faWNvbiI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iNTYiIGhlaWdodD0iNTYiPjxwYXRoIGQ9Ik0yMiAxOWEyIDIgMCAwMS0yIDJINGEyIDIgMCAwMS0yLTJWNWEyIDIgMCAwMTItMmg1bDIgM2g5YTIgMiAwIDAxMiAyeiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMS41IiBmaWxsPSJub25lIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PC9zdmc+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPGgzPuaaguaXoOWIhuexuzwvaDM+CiAgICAgICAgICAgICAgICAgICAgPHA+6L+Y5rKh5pyJ5Yib5bu65YiG57G755uu5b2VPC9wPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8P3BocCBlbmRpZjsgPz4KICAgICAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICA8L2Rpdj4KCiAgICAgICAgPD9waHAgJHRoaXMtPm5lZWQoJ3NpZGViYXIucGhwJyk7ID8+CiAgICA8L2Rpdj4KPC9tYWluPgoKPHN0eWxlPgovKiDpobXpnaLlpLTpg6ggLSDlpI3nlKjmoIfnrb7kupHpobXpnaLnmoTmoLflvI8gKi8KLmpvZS1wYWdlLWhlYWRlciB7CiAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMTM1ZGVnLCB2YXIoLS1wcmltYXJ5LWxpZ2h0LCByZ2JhKDAsMTEyLDI0MywuMDYpKSwgdHJhbnNwYXJlbnQpOwogICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tYm9yZGVyKTsKICAgIGJvcmRlci1yYWRpdXM6IHZhcigtLXJhZGl1cy1sZywgMTJweCk7CiAgICBwYWRkaW5nOiAyOHB4IDI0cHg7CiAgICBtYXJnaW4tYm90dG9tOiAyNHB4OwogICAgdGV4dC1hbGlnbjogY2VudGVyOwp9Ci5qb2UtcGFnZS1oZWFkZXJfX3RpdGxlIHsKICAgIGRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGp1c3RpZnktY29udGVudDogY2VudGVyOyBnYXA6IDhweDsKICAgIGZvbnQtc2l6ZTogMjJweDsgZm9udC13ZWlnaHQ6IDcwMDsgY29sb3I6IHZhcigtLXRleHQpOyBtYXJnaW46IDAgMCA4cHg7Cn0KLmpvZS1wYWdlLWhlYWRlcl9fdGl0bGUgc3ZnIHsgY29sb3I6IHZhcigtLXByaW1hcnkpOyB9Ci5qb2UtcGFnZS1oZWFkZXJfX2Rlc2MgeyBjb2xvcjogdmFyKC0tdGV4dC1zb2Z0KTsgZm9udC1zaXplOiAxNHB4OyBtYXJnaW46IDAgMCAxMnB4OyB9Ci5qb2UtcGFnZS1oZWFkZXJfX3N0YXRzIHsgZm9udC1zaXplOiAxM3B4OyBjb2xvcjogdmFyKC0tdGV4dC1tdXRlKTsgfQouam9lLXBhZ2UtaGVhZGVyX19zZXAgeyBtYXJnaW46IDAgNnB4OyB9CgovKiDliIbnsbvliJfooaggKi8KLmpvZS1jYXRsaXN0IHsKICAgIG1hcmdpbi1ib3R0b206IDI0cHg7Cn0KLmpvZS1jYXRsaXN0X19ncmlkIHsKICAgIGRpc3BsYXk6IGdyaWQ7CiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdChhdXRvLWZpbGwsIG1pbm1heCgyODBweCwgMWZyKSk7CiAgICBnYXA6IDE2cHg7Cn0KLmpvZS1jYXRsaXN0X19pdGVtIHsKICAgIGJhY2tncm91bmQ6IHZhcigtLWJnLWNhcmQpOwogICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tYm9yZGVyKTsKICAgIGJvcmRlci1yYWRpdXM6IHZhcigtLXJhZGl1cy1sZywgMTJweCk7CiAgICBwYWRkaW5nOiAyMHB4OwogICAgZGlzcGxheTogZmxleDsKICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47CiAgICB0cmFuc2l0aW9uOiBhbGwgLjJzIGVhc2U7CiAgICBtaW4taGVpZ2h0OiAxMjBweDsKfQouam9lLWNhdGxpc3RfX2l0ZW06aG92ZXIgewogICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1wcmltYXJ5KTsKICAgIGJveC1zaGFkb3c6IDAgNHB4IDE2cHggcmdiYSg5MSwxMDgsMjU1LC4xKTsKICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtMnB4KTsKfQouam9lLWNhdGxpc3RfX2luZm8geyBmbGV4OiAxOyB9Ci5qb2UtY2F0bGlzdF9fbmFtZSB7IG1hcmdpbjogMCAwIDhweDsgfQouam9lLWNhdGxpc3RfX25hbWUgYSB7CiAgICBkaXNwbGF5OiBmbGV4OyBhbGlnbi1pdGVtczogY2VudGVyOyBnYXA6IDhweDsKICAgIGZvbnQtc2l6ZTogMTdweDsgZm9udC13ZWlnaHQ6IDYwMDsKICAgIGNvbG9yOiB2YXIoLS10ZXh0KTsKICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTsKICAgIHRyYW5zaXRpb246IGNvbG9yIC4yczsKfQouam9lLWNhdGxpc3RfX25hbWUgYTpob3ZlciB7IGNvbG9yOiB2YXIoLS1wcmltYXJ5KTsgfQouam9lLWNhdGxpc3RfX25hbWUgc3ZnIHsgY29sb3I6IHZhcigtLXByaW1hcnkpOyBmbGV4LXNocmluazogMDsgfQouam9lLWNhdGxpc3RfX2Rlc2MgewogICAgZm9udC1zaXplOiAxM3B4OyBjb2xvcjogdmFyKC0tdGV4dC1tdXRlKTsKICAgIG1hcmdpbjogMCAwIDEycHg7CiAgICBkaXNwbGF5OiAtd2Via2l0LWJveDsKICAgIC13ZWJraXQtbGluZS1jbGFtcDogMjsKICAgIC13ZWJraXQtYm94LW9yaWVudDogdmVydGljYWw7CiAgICBvdmVyZmxvdzogaGlkZGVuOwp9Ci5qb2UtY2F0bGlzdF9fbWV0YSB7CiAgICBkaXNwbGF5OiBmbGV4OyBhbGlnbi1pdGVtczogY2VudGVyOyBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47CiAgICBwYWRkaW5nLXRvcDogMTJweDsKICAgIGJvcmRlci10b3A6IDFweCBzb2xpZCB2YXIoLS1ib3JkZXIpOwp9Ci5qb2UtY2F0bGlzdF9fY291bnQgewogICAgZm9udC1zaXplOiAxM3B4OwogICAgZm9udC13ZWlnaHQ6IDYwMDsKICAgIGNvbG9yOiB2YXIoLS1wcmltYXJ5KTsKfQouam9lLWNhdGxpc3RfX2xpbmsgewogICAgZGlzcGxheTogZmxleDsgYWxpZ24taXRlbXM6IGNlbnRlcjsgZ2FwOiA0cHg7CiAgICBmb250LXNpemU6IDEzcHg7CiAgICBjb2xvcjogdmFyKC0tdGV4dC1zb2Z0KTsKICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTsKICAgIHRyYW5zaXRpb246IGNvbG9yIC4yczsKfQouam9lLWNhdGxpc3RfX2xpbms6aG92ZXIgeyBjb2xvcjogdmFyKC0tcHJpbWFyeSk7IH0KCi8qIOWTjeW6lOW8jyAqLwpAbWVkaWEgKG1heC13aWR0aDogNzY4cHgpIHsKICAgIC5qb2UtY2F0bGlzdF9fZ3JpZCB7CiAgICAgICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnI7CiAgICB9Cn0KCi8qIOepuueKtuaAgSAtIOWkjeeUqOagh+etvuS6kemhtemdouagt+W8jyAqLwouam9lLWVtcHR5IHsKICAgIHRleHQtYWxpZ246IGNlbnRlcjsgcGFkZGluZzogNDhweCAyMHB4IDYwcHg7CiAgICBiYWNrZ3JvdW5kOiB2YXIoLS1iZy1jYXJkKTsKICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWJvcmRlcik7CiAgICBib3JkZXItcmFkaXVzOiB2YXIoLS1yYWRpdXMtbGcsIDEycHgpOwp9Ci5qb2UtZW1wdHlfX2ljb24geyBjb2xvcjogdmFyKC0tdGV4dC1tdXRlKTsgb3BhY2l0eTogLjM1OyBtYXJnaW4tYm90dG9tOiAxNnB4OyB9Ci5qb2UtZW1wdHkgaDMgeyBmb250LXNpemU6IDE4cHg7IGZvbnQtd2VpZ2h0OiA2MDA7IGNvbG9yOiB2YXIoLS10ZXh0KTsgbWFyZ2luOiAwIDAgOHB4OyB9Ci5qb2UtZW1wdHkgcCB7IGZvbnQtc2l6ZTogMTRweDsgY29sb3I6IHZhcigtLXRleHQtbXV0ZSk7IG1hcmdpbjogMDsgfQo8L3N0eWxlPgoKPD9waHAgJHRoaXMtPm5lZWQoJ2Zvb3Rlci5waHAnKTsgPz4K
+<?php
+/**
+ * 分类汇总页面模板
+ *
+ * @package KingJoe
+ *
+ * 使用方法：创建独立页面 → 选择「分类汇总」模板
+ */
+if (!defined('__TYPECHO_ROOT_DIR__')) exit;
+$this->need('header.php');
+?>
+
+<main class="joe-container" id="main">
+    <div class="joe-main__wrap">
+        <div class="joe-main">
+
+            <!-- 页面头部 -->
+            <section class="joe-page-header">
+                <h1 class="joe-page-header__title">
+                    <svg viewBox="0 0 24 24" width="24" height="24"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
+                    <?php $this->title(); ?>
+                </h1>
+                <?php if ($this->fields->desc): ?>
+                <p class="joe-page-header__desc"><?php $this->fields->desc(); ?></p>
+                <?php endif; ?>
+                <?php
+                // 统计
+                $catsWidget = Typecho_Widget::widget('Widget_Metas_Category_List');
+                $catCount = 0;
+                $totalPosts = 0;
+                $allCats = [];
+                while ($catsWidget->next()) {
+                    $catCount++;
+                    $totalPosts += $catsWidget->count;
+                    $allCats[] = [
+                        'mid' => $catsWidget->mid,
+                        'name' => $catsWidget->name,
+                        'slug' => $catsWidget->slug,
+                        'count' => $catsWidget->count,
+                        'permalink' => $catsWidget->permalink,
+                        'description' => $catsWidget->description,
+                    ];
+                }
+                ?>
+                <div class="joe-page-header__stats">
+                    <span class="joe-page-header__stat"><?php echo $catCount; ?> 个分类</span>
+                    <span class="joe-page-header__sep">·</span>
+                    <span class="joe-page-header__stat">共 <?php echo $totalPosts; ?> 篇文章</span>
+                </div>
+            </section>
+
+            <!-- 分类列表 -->
+            <section class="joe-catlist">
+                <?php if ($catCount > 0): ?>
+                <div class="joe-catlist__grid">
+                    <?php foreach ($allCats as $cat): ?>
+                    <div class="joe-catlist__item">
+                        <div class="joe-catlist__info">
+                            <h3 class="joe-catlist__name">
+                                <a href="<?php echo $cat['permalink']; ?>">
+                                    <svg viewBox="0 0 24 24" width="18" height="18"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
+                                    <?php echo htmlspecialchars($cat['name']); ?>
+                                </a>
+                            </h3>
+                            <?php if ($cat['description']): ?>
+                            <p class="joe-catlist__desc"><?php echo htmlspecialchars($cat['description']); ?></p>
+                            <?php endif; ?>
+                        </div>
+                        <div class="joe-catlist__meta">
+                            <span class="joe-catlist__count"><?php echo $cat['count']; ?> 篇</span>
+                            <a href="<?php echo $cat['permalink']; ?>" class="joe-catlist__link">
+                                浏览全部
+                                <svg viewBox="0 0 24 24" width="14" height="14"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+                <?php else: ?>
+                <div class="joe-empty">
+                    <div class="joe-empty__icon">
+                        <svg viewBox="0 0 24 24" width="56" height="56"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3>暂无分类</h3>
+                    <p>还没有创建分类目录</p>
+                </div>
+                <?php endif; ?>
+            </section>
+
+        </div>
+
+        <?php $this->need('sidebar.php'); ?>
+    </div>
+</main>
+
+<style>
+/* 页面头部 - 复用标签云页面的样式 */
+.joe-page-header {
+    background: linear-gradient(135deg, var(--primary-light, rgba(0,112,243,.06)), transparent);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg, 12px);
+    padding: 28px 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.joe-page-header__title {
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    font-size: 22px; font-weight: 700; color: var(--text); margin: 0 0 8px;
+}
+.joe-page-header__title svg { color: var(--primary); }
+.joe-page-header__desc { color: var(--text-soft); font-size: 14px; margin: 0 0 12px; }
+.joe-page-header__stats { font-size: 13px; color: var(--text-mute); }
+.joe-page-header__sep { margin: 0 6px; }
+
+/* 分类列表 */
+.joe-catlist {
+    margin-bottom: 24px;
+}
+.joe-catlist__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+}
+.joe-catlist__item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg, 12px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease;
+    min-height: 120px;
+}
+.joe-catlist__item:hover {
+    border-color: var(--primary);
+    box-shadow: 0 4px 16px rgba(91,108,255,.1);
+    transform: translateY(-2px);
+}
+.joe-catlist__info { flex: 1; }
+.joe-catlist__name { margin: 0 0 8px; }
+.joe-catlist__name a {
+    display: flex; align-items: center; gap: 8px;
+    font-size: 17px; font-weight: 600;
+    color: var(--text);
+    text-decoration: none;
+    transition: color .2s;
+}
+.joe-catlist__name a:hover { color: var(--primary); }
+.joe-catlist__name svg { color: var(--primary); flex-shrink: 0; }
+.joe-catlist__desc {
+    font-size: 13px; color: var(--text-mute);
+    margin: 0 0 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.joe-catlist__meta {
+    display: flex; align-items: center; justify-content: space-between;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+}
+.joe-catlist__count {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--primary);
+}
+.joe-catlist__link {
+    display: flex; align-items: center; gap: 4px;
+    font-size: 13px;
+    color: var(--text-soft);
+    text-decoration: none;
+    transition: color .2s;
+}
+.joe-catlist__link:hover { color: var(--primary); }
+
+/* 响应式 */
+@media (max-width: 768px) {
+    .joe-catlist__grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* 空状态 - 复用标签云页面样式 */
+.joe-empty {
+    text-align: center; padding: 48px 20px 60px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg, 12px);
+}
+.joe-empty__icon { color: var(--text-mute); opacity: .35; margin-bottom: 16px; }
+.joe-empty h3 { font-size: 18px; font-weight: 600; color: var(--text); margin: 0 0 8px; }
+.joe-empty p { font-size: 14px; color: var(--text-mute); margin: 0; }
+</style>
+
+<?php $this->need('footer.php'); ?>

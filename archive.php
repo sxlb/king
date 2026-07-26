@@ -1,1 +1,97 @@
-PD9waHAgaWYgKCFkZWZpbmVkKCdfX1RZUEVDSE9fUk9PVF9ESVJfXycpKSBleGl0OyA/Pgo8P3BocCAkdGhpcy0+bmVlZCgnaGVhZGVyLnBocCcpOyA/PgoKPG1haW4gY2xhc3M9ImpvZS1jb250YWluZXIiIGlkPSJtYWluIj4KICAgIDxkaXYgY2xhc3M9ImpvZS1tYWluX193cmFwIj4KICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtbWFpbiI+CiAgICAgICAgICAgIDxzZWN0aW9uIGNsYXNzPSJqb2UtcG9zdGxpc3QiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLXNlY3Rpb25fX2hlYWQiPgogICAgICAgICAgICAgICAgICAgIDxoMiBjbGFzcz0iam9lLXNlY3Rpb25fX3RpdGxlIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImpvZS1zZWN0aW9uX19iYXIiPjwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgPD9waHAgJHRoaXMtPmFyY2hpdmVUaXRsZShbCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAnY2F0ZWdvcnknID0+IF90KCfliIbnsbvvvJolcycpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3RhZycgICAgICA9PiBfdCgn5qCH562+77yaJXMnKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICdzZWFyY2gnICAgPT4gX3QoJ+aQnOe0ou+8miVzJyksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAnYXV0aG9yJyAgID0+IF90KCfkvZzogIXvvJolcycpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2RhdGUnICAgICA9PiBfdCgn5b2S5qGj77yaJXMnKSwKICAgICAgICAgICAgICAgICAgICAgICAgXSwgJycsICcnKTsgPz4KICAgICAgICAgICAgICAgICAgICA8L2gyPgogICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgPD9waHAgaWYgKCR0aGlzLT5oYXZlKCkpOgogICAgICAgICAgICAgICAgICAgIC8vIOaQnOe0oue7k+aenOaYvuekuue7n+iuoQogICAgICAgICAgICAgICAgICAgIGlmICgkdGhpcy0+aXMoJ3NlYXJjaCcpKTogPz4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2Utc2VhcmNoLWluZm8iPuaQnOe0oiAiPGI+PD9waHAgZWNobyBpc3NldCgkX0dFVFsncyddKSA/IGh0bWxzcGVjaWFsY2hhcnMoJF9HRVRbJ3MnXSkgOiAoaXNzZXQoJF9QT1NUWydzJ10pID8gaHRtbHNwZWNpYWxjaGFycygkX1BPU1RbJ3MnXSkgOiAnJyk7ID8+PC9iPiLvvIzmib7liLAgPGI+PD9waHAgZWNobyAkdGhpcy0+Z2V0VG90YWwoKTsgPz48L2I+IOadoee7k+aenDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDw/cGhwIGVuZGlmOwoKICAgICAgICAgICAgICAgICAgICAkaXNUaW1lbGluZSA9ICR0aGlzLT5pcygnYXJjaGl2ZScpICYmICEkdGhpcy0+aXMoJ2NhdGVnb3J5JykgJiYgISR0aGlzLT5pcygndGFnJykgJiYgISR0aGlzLT5pcygnc2VhcmNoJykgJiYgISR0aGlzLT5pcygnYXV0aG9yJyk7CiAgICAgICAgICAgICAgICAgICAgaWYgKCRpc1RpbWVsaW5lKToKICAgICAgICAgICAgICAgICAgICAgICAgLy8g5pe26Ze06L206KeG5Zu+77ya5oyJ5bm05Lu95YiG57uECiAgICAgICAgICAgICAgICAgICAgICAgICRjdXJyZW50WWVhciA9ICcnOwogICAgICAgICAgICAgICAgICAgICAgICB3aGlsZSAoJHRoaXMtPm5leHQoKSk6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAkeWVhciA9IGRhdGUoJ1knLCAkdGhpcy0+Y3JlYXRlZCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoJHllYXIgIT09ICRjdXJyZW50WWVhcik6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCRjdXJyZW50WWVhciAhPT0gJycpIGVjaG8gJzwvZGl2Pic7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJGN1cnJlbnRZZWFyID0gJHllYXI7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA/PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWFyY2hpdmVfX3llYXIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoMyBjbGFzcz0iam9lLWFyY2hpdmVfX3llYXItdGl0bGUiPjw/cGhwIGVjaG8gJHllYXI7ID8+PC9oMz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGVuZGlmOyA/PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImpvZS1hcmNoaXZlX19wb3N0Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImpvZS1hcmNoaXZlX19wb3N0LXRpbWUiPjw/cGhwIGVjaG8gZGF0ZSgnbS1kJywgJHRoaXMtPmNyZWF0ZWQpOyA/Pjwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0iPD9waHAgJHRoaXMtPnBlcm1hbGluaygpID8+IiBjbGFzcz0iam9lLWFyY2hpdmVfX3Bvc3QtdGl0bGUiPjw/cGhwICR0aGlzLT50aXRsZSgpID8+PC9hPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8P3BocCBpZiAoJHRoaXMtPmNhdGVnb3J5KTogPz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImpvZS1hcmNoaXZlX19wb3N0LWNhdCI+PD9waHAgJHRoaXMtPmNhdGVnb3J5KCcsJywgZmFsc2UpOyA/Pjwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPD9waHAgZW5kaWY7ID8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGVuZHdoaWxlOyA/PgogICAgICAgICAgICAgICAgICAgICAgICA8P3BocCBpZiAoJGN1cnJlbnRZZWFyICE9PSAnJykgZWNobyAnPC9kaXY+JzsgPz4KICAgICAgICAgICAgICAgICAgICA8P3BocCBlbHNlOiA/PgogICAgICAgICAgICAgICAgICAgICAgICA8P3BocCB3aGlsZSAoJHRoaXMtPm5leHQoKSk6ID8+CiAgICAgICAgICAgICAgICAgICAgICAgIDxhcnRpY2xlIGNsYXNzPSJqb2UtcG9zdGxpc3RfX2l0ZW0iPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0iPD9waHAgJHRoaXMtPnBlcm1hbGluaygpID8+IiBjbGFzcz0iam9lLXBvc3RsaXN0X190aHVtYjw/cGhwIGlmICgham9lX2hhc190aHVtYigkdGhpcykpIGVjaG8gJyBpcy1ub25lJzsgPz4iPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGlmIChqb2VfaGFzX3RodW1iKCR0aGlzKSk6ID8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGVjaG8gam9lX2xhenlfaW1nKGpvZV90aHVtYigkdGhpcyksICR0aGlzLT50aXRsZSwgJ2pvZS1wb3N0bGlzdF9faW1nJywgNDAwLCAyNjApOyA/PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGVsc2U6ID8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJqb2UtcG9zdGxpc3RfX3BsYWNlaG9sZGVyIj48P3BocCBlY2hvIG1iX3N1YnN0cigkdGhpcy0+dGl0bGUsIDAsIDEpOyA/Pjwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8P3BocCBlbmRpZjsgPz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImpvZS1wb3N0bGlzdF9fYm9keSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGgzIGNsYXNzPSJqb2UtcG9zdGxpc3RfX3RpdGxlIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0iPD9waHAgJHRoaXMtPnBlcm1hbGluaygpID8+Ij48P3BocCBlY2hvIGpvZV9zZWFyY2hfaGlnaGxpZ2h0KCR0aGlzLT50aXRsZSk7ID8+PC9hPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3M9ImpvZS1wb3N0bGlzdF9fZXhjZXJwdCI+PD9waHAgZWNobyBqb2Vfc2VhcmNoX2hpZ2hsaWdodChqb2VfZXhjZXJwdCgkdGhpcywgMTIwKSk7ID8+PC9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImpvZS1wb3N0bGlzdF9fbWV0YSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJqb2UtbWV0YV9faXRlbSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3ZnIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjE0IiBoZWlnaHQ9IjE0Ij48cGF0aCBkPSJNMyA5aDE4TTUgNWgxNGEyIDIgMCAwIDEgMiAydjEwYTIgMiAwIDAgMS0yIDJINWEyIDIgMCAwIDEtMi0yVjdhMiAyIDAgMCAxIDItMloiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGVjaG8gam9lX2Zvcm1hdF9kYXRlKCR0aGlzLT5jcmVhdGVkKTsgPz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iam9lLW1ldGFfX2l0ZW0iPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCI+PHBhdGggZD0iTTIxIDExLjVhOC41IDguNSAwIDAgMS0xMi41IDcuNUwzIDIxbDItNS41QTguNSA4LjUgMCAxIDEgMjEgMTEuNVoiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwICR0aGlzLT5jb21tZW50c051bSgnJWQnKTsgPz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvYXJ0aWNsZT4KICAgICAgICAgICAgICAgICAgICAgICAgPD9waHAgZW5kd2hpbGU7ID8+CiAgICAgICAgICAgICAgICAgICAgPD9waHAgZW5kaWY7ID8+CiAgICAgICAgICAgICAgICA8P3BocCBlbHNlOiA/PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWVtcHR5IGpvZS1lbXB0eS0tYmlnIj46KTwvZGl2PgogICAgICAgICAgICAgICAgPD9waHAgZW5kaWY7ID8+CgogICAgICAgICAgICAgICAgPG5hdiBjbGFzcz0iam9lLXBhZ2luYXRpb24iPgogICAgICAgICAgICAgICAgICAgIDw/cGhwICR0aGlzLT5wYWdlTmF2KAogICAgICAgICAgICAgICAgICAgICAgICAn5LiK5LiA6aG1JywKICAgICAgICAgICAgICAgICAgICAgICAgJ+S4i+S4gOmhtScsCiAgICAgICAgICAgICAgICAgICAgICAgIDEsICcuLi4nLAogICAgICAgICAgICAgICAgICAgICAgICBbJ3dyYXBUYWcnID0+ICd1bCcsICd3cmFwQ2xhc3MnID0+ICdqb2UtcGFnaW5hdGlvbl9fbGlzdCcsICdpdGVtVGFnJyA9PiAnbGknLCAndGV4dFRhZycgPT4gJ3NwYW4nLCAnY3VycmVudENsYXNzJyA9PiAnaXMtYWN0aXZlJywgJ3ByZXZDbGFzcycgPT4gJ2lzLXByZXYnLCAnbmV4dENsYXNzJyA9PiAnaXMtbmV4dCddCiAgICAgICAgICAgICAgICAgICAgKTsgPz4KICAgICAgICAgICAgICAgIDwvbmF2PgogICAgICAgICAgICA8L3NlY3Rpb24+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDw/cGhwICR0aGlzLT5uZWVkKCdzaWRlYmFyLnBocCcpOyA/PgogICAgPC9kaXY+CjwvbWFpbj4KCjw/cGhwICR0aGlzLT5uZWVkKCdmb290ZXIucGhwJyk7ID8+Cg==
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
+<?php $this->need('header.php'); ?>
+
+<main class="joe-container" id="main">
+    <div class="joe-main__wrap">
+        <div class="joe-main">
+            <section class="joe-postlist">
+                <div class="joe-section__head">
+                    <h2 class="joe-section__title">
+                        <span class="joe-section__bar"></span>
+                        <?php $this->archiveTitle([
+                            'category' => _t('分类：%s'),
+                            'tag'      => _t('标签：%s'),
+                            'search'   => _t('搜索：%s'),
+                            'author'   => _t('作者：%s'),
+                            'date'     => _t('归档：%s'),
+                        ], '', ''); ?>
+                    </h2>
+                </div>
+
+                <?php if ($this->have()):
+                    // 搜索结果显示统计
+                    if ($this->is('search')): ?>
+                    <div class="joe-search-info">搜索 "<b><?php echo isset($_GET['s']) ? htmlspecialchars($_GET['s']) : (isset($_POST['s']) ? htmlspecialchars($_POST['s']) : ''); ?></b>"，找到 <b><?php echo $this->getTotal(); ?></b> 条结果</div>
+                    <?php endif;
+
+                    $isTimeline = $this->is('archive') && !$this->is('category') && !$this->is('tag') && !$this->is('search') && !$this->is('author');
+                    if ($isTimeline):
+                        // 时间轴视图：按年份分组
+                        $currentYear = '';
+                        while ($this->next()):
+                            $year = date('Y', $this->created);
+                            if ($year !== $currentYear):
+                                if ($currentYear !== '') echo '</div>';
+                                $currentYear = $year;
+                            ?>
+                            <div class="joe-archive__year">
+                                <h3 class="joe-archive__year-title"><?php echo $year; ?></h3>
+                            <?php endif; ?>
+                                <div class="joe-archive__post">
+                                    <span class="joe-archive__post-time"><?php echo date('m-d', $this->created); ?></span>
+                                    <a href="<?php $this->permalink() ?>" class="joe-archive__post-title"><?php $this->title() ?></a>
+                                    <?php if ($this->category): ?>
+                                    <span class="joe-archive__post-cat"><?php $this->category(',', false); ?></span>
+                                    <?php endif; ?>
+                                </div>
+                        <?php endwhile; ?>
+                        <?php if ($currentYear !== '') echo '</div>'; ?>
+                    <?php else: ?>
+                        <?php while ($this->next()): ?>
+                        <article class="joe-postlist__item">
+                            <a href="<?php $this->permalink() ?>" class="joe-postlist__thumb<?php if (!joe_has_thumb($this)) echo ' is-none'; ?>">
+                                <?php if (joe_has_thumb($this)): ?>
+                                    <?php echo joe_lazy_img(joe_thumb($this), $this->title, 'joe-postlist__img', 400, 260); ?>
+                                <?php else: ?>
+                                    <span class="joe-postlist__placeholder"><?php echo mb_substr($this->title, 0, 1); ?></span>
+                                <?php endif; ?>
+                            </a>
+                            <div class="joe-postlist__body">
+                                <h3 class="joe-postlist__title">
+                                    <a href="<?php $this->permalink() ?>"><?php echo joe_search_highlight($this->title); ?></a>
+                                </h3>
+                                <p class="joe-postlist__excerpt"><?php echo joe_search_highlight(joe_excerpt($this, 120)); ?></p>
+                                <div class="joe-postlist__meta">
+                                    <span class="joe-meta__item">
+                                        <svg viewBox="0 0 24 24" width="14" height="14"><path d="M3 9h18M5 5h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
+                                        <?php echo joe_format_date($this->created); ?>
+                                    </span>
+                                    <span class="joe-meta__item">
+                                        <svg viewBox="0 0 24 24" width="14" height="14"><path d="M21 11.5a8.5 8.5 0 0 1-12.5 7.5L3 21l2-5.5A8.5 8.5 0 1 1 21 11.5Z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
+                                        <?php $this->commentsNum('%d'); ?>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
+                <?php else: ?>
+                <div class="joe-empty joe-empty--big">:)</div>
+                <?php endif; ?>
+
+                <nav class="joe-pagination">
+                    <?php $this->pageNav(
+                        '上一页',
+                        '下一页',
+                        1, '...',
+                        ['wrapTag' => 'ul', 'wrapClass' => 'joe-pagination__list', 'itemTag' => 'li', 'textTag' => 'span', 'currentClass' => 'is-active', 'prevClass' => 'is-prev', 'nextClass' => 'is-next']
+                    ); ?>
+                </nav>
+            </section>
+        </div>
+
+        <?php $this->need('sidebar.php'); ?>
+    </div>
+</main>
+
+<?php $this->need('footer.php'); ?>

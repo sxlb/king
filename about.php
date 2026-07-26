@@ -1,1 +1,200 @@
-PD9waHAKLyoqCiAqIOWFs+S6jumhtQogKgogKiBAcGFja2FnZSBjdXN0b20KICovCmlmICghZGVmaW5lZCgnX19UWVBFQ0hPX1JPT1RfRElSX18nKSkgZXhpdDsKJHRoaXMtPm5lZWQoJ2hlYWRlci5waHAnKTsKCi8vIOiHquWumuS5ieWtl+aute+8mm5pY2tuYW1lIC8gc2lnbiAvIGxvY2F0aW9uIC8gZW1haWwgLyBnaXRodWIgLyB3ZWlibyAvIHNraWxscyAvIHRpbWVsaW5lCiRuaWNrICA9ICR0aGlzLT5maWVsZHMtPm5pY2tuYW1lID8gJHRoaXMtPmZpZWxkcy0+bmlja25hbWUgOiAkdGhpcy0+dXNlci0+c2NyZWVuTmFtZTsKJHNpZ24gID0gJHRoaXMtPmZpZWxkcy0+c2lnbiA/ICR0aGlzLT5maWVsZHMtPnNpZ24gOiAn54Ot54ix55Sf5rS777yM54Ot54ix5Luj56CB44CCJzsKJGxvYyAgID0gJHRoaXMtPmZpZWxkcy0+bG9jYXRpb24gPzogJyc7CiRlbWFpbCA9ICR0aGlzLT5maWVsZHMtPmVtYWlsID86ICcnOwokZ2l0aHViPSAkdGhpcy0+ZmllbGRzLT5naXRodWIgPzogJyc7CiR3ZWlibyA9ICR0aGlzLT5maWVsZHMtPndlaWJvID86ICcnOwokYXZhdGFyPSAkdGhpcy0+ZmllbGRzLT5hdmF0YXIgPzogJyc7CgovLyBza2lsbHMg5qC85byP77yaUEhQOjkwLEphdmFTY3JpcHQ6ODAsSFRNTC9DU1M6OTUKJHNraWxsc1JhdyA9IHRyaW0oJHRoaXMtPmZpZWxkcy0+c2tpbGxzID86ICcnKTsKJHNraWxscyA9IFtdOwppZiAoJHNraWxsc1JhdykgewogICAgZm9yZWFjaCAoZXhwbG9kZSgnLCcsICRza2lsbHNSYXcpIGFzICRzKSB7CiAgICAgICAgJHBhcnRzID0gYXJyYXlfbWFwKCd0cmltJywgZXhwbG9kZSgnOicsICRzKSk7CiAgICAgICAgaWYgKGNvdW50KCRwYXJ0cykgPT09IDIgJiYgaXNfbnVtZXJpYygkcGFydHNbMV0pKSB7CiAgICAgICAgICAgICRza2lsbHNbXSA9IFsnbmFtZScgPT4gJHBhcnRzWzBdLCAndmFsdWUnID0+IG1pbigxMDAsIG1heCgwLCAoaW50KSRwYXJ0c1sxXSkpXTsKICAgICAgICB9CiAgICB9Cn0KaWYgKGVtcHR5KCRza2lsbHMpKSB7CiAgICAkc2tpbGxzID0gWwogICAgICAgIFsnbmFtZScgPT4gJ1BIUCcsICAgICAgICd2YWx1ZScgPT4gODVdLAogICAgICAgIFsnbmFtZScgPT4gJ0phdmFTY3JpcHQnLCd2YWx1ZScgPT4gODBdLAogICAgICAgIFsnbmFtZScgPT4gJ0hUTUwgLyBDU1MnLCd2YWx1ZScgPT4gOTBdLAogICAgICAgIFsnbmFtZScgPT4gJ015U1FMJywgICAgICd2YWx1ZScgPT4gNzVdLAogICAgICAgIFsnbmFtZScgPT4gJ1R5cGVjaG8nLCAgICd2YWx1ZScgPT4gOTVdLAogICAgXTsKfQoKLy8gdGltZWxpbmUg5qC85byP77yaMjAyMy0wMS0wMXzmoIfpoph85o+P6L+wOy4uLgokdGltZWxpbmVSYXcgPSB0cmltKCR0aGlzLT5maWVsZHMtPnRpbWVsaW5lID86ICcnKTsKJHRpbWVsaW5lID0gW107CmlmICgkdGltZWxpbmVSYXcpIHsKICAgIGZvcmVhY2ggKGV4cGxvZGUoJzsnLCAkdGltZWxpbmVSYXcpIGFzICR0KSB7CiAgICAgICAgJHBhcnRzID0gYXJyYXlfbWFwKCd0cmltJywgZXhwbG9kZSgnfCcsICR0KSk7CiAgICAgICAgaWYgKGNvdW50KCRwYXJ0cykgPj0gMikgewogICAgICAgICAgICAkdGltZWxpbmVbXSA9IFsKICAgICAgICAgICAgICAgICdkYXRlJyAgPT4gJHBhcnRzWzBdLAogICAgICAgICAgICAgICAgJ3RpdGxlJyA9PiAkcGFydHNbMV0sCiAgICAgICAgICAgICAgICAnZGVzYycgID0+IGlzc2V0KCRwYXJ0c1syXSkgPyAkcGFydHNbMl0gOiAnJywKICAgICAgICAgICAgXTsKICAgICAgICB9CiAgICB9Cn0KaWYgKGVtcHR5KCR0aW1lbGluZSkpIHsKICAgICR0aW1lbGluZSA9IFsKICAgICAgICBbJ2RhdGUnID0+ICcyMDIwJywgJ3RpdGxlJyA9PiAn5byA5aeL5YaZ5Y2a5a6iJywgJ2Rlc2MnID0+ICfnlKggVHlwZWNobyDmkK3lu7rkuobnrKzkuIDkuKrljZrlrqLvvIzorrDlvZXlrabkuaDkuI7nlJ/mtLvjgIInXSwKICAgICAgICBbJ2RhdGUnID0+ICcyMDIyJywgJ3RpdGxlJyA9PiAn6L2s5ZCR5YmN56uv5byA5Y+RJywgJ2Rlc2MnID0+ICfku47lkI7nq6/liLDlhajmoIjvvIzlvIDlp4vmjqXop6YgVnVlIC8gUmVhY3Qg562J546w5Luj5YmN56uv5qGG5p6244CCJ10sCiAgICAgICAgWydkYXRlJyA9PiAnMjAyNCcsICd0aXRsZScgPT4gJ+aMgee7reWtpuS5oCcsICdkZXNjJyA9PiAn5L+d5oyB5a+55paw5oqA5pyv55qE5aW95aWH5b+D77yM5Yqq5Yqb5oiQ5Li65pu05aW955qE5bel56iL5biI44CCJ10sCiAgICBdOwp9Cj8+Cgo8bWFpbiBjbGFzcz0iam9lLWNvbnRhaW5lciIgaWQ9Im1haW4iPgogICAgPGRpdiBjbGFzcz0iam9lLW1haW5fX3dyYXAgam9lLW1haW5fX3dyYXAtLXNpbmdsZSI+CiAgICAgICAgPGRpdiBjbGFzcz0iam9lLW1haW4gam9lLW1haW4tLXNpbmdsZSI+CiAgICAgICAgICAgIDxhcnRpY2xlIGNsYXNzPSJqb2UtYXJ0aWNsZSBqb2UtYWJvdXQiPgogICAgICAgICAgICAgICAgPCEtLSDpnaLljIXlsZEgLS0+CiAgICAgICAgICAgICAgICA8bmF2IGNsYXNzPSJqb2UtYnJlYWRjcnVtYiI+CiAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0iPD9waHAgJHRoaXMtPm9wdGlvbnMtPnNpdGVVcmwoKTsgPz4iPummlumhtTwvYT4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iam9lLWJyZWFkY3J1bWJfX3NlcCI+Lzwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iam9lLWJyZWFkY3J1bWJfX2N1cnJlbnQiPjw/cGhwICR0aGlzLT50aXRsZSgpOyA/Pjwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvbmF2PgoKICAgICAgICAgICAgICAgIDwhLS0g5Liq5Lq65L+h5oGvIC0tPgogICAgICAgICAgICAgICAgPHNlY3Rpb24gY2xhc3M9ImpvZS1hYm91dF9faGVybyI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWFib3V0X19hdmF0YXIiPgogICAgICAgICAgICAgICAgICAgICAgICA8P3BocCBpZiAoJGF2YXRhcik6ID8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz0iPD9waHAgZWNobyBodG1sc3BlY2lhbGNoYXJzKCRhdmF0YXIpOyA/PiIgYWx0PSI8P3BocCBlY2hvIGh0bWxzcGVjaWFsY2hhcnMoJG5pY2spOyA/PiIgbG9hZGluZz0ibGF6eSI+CiAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGVsc2U6ID8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8P3BocCBlY2hvIG1iX3N1YnN0cigkbmljaywgMCwgMSk7ID8+CiAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGVuZGlmOyA/PgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImpvZS1hYm91dF9faW5mbyI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxoMiBjbGFzcz0iam9lLWFib3V0X19uYW1lIj48P3BocCBlY2hvIGh0bWxzcGVjaWFsY2hhcnMoJG5pY2spOyA/PjwvaDI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzPSJqb2UtYWJvdXRfX2Rlc2MiPjw/cGhwIGVjaG8gaHRtbHNwZWNpYWxjaGFycygkc2lnbik7ID8+PC9wPgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtYWJvdXRfX21ldGEiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPD9waHAgaWYgKCRsb2MpOiA/PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImpvZS1hYm91dF9fbWV0YS1pdGVtIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3ZnIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjEyIiBoZWlnaHQ9IjEyIj48cGF0aCBkPSJNMTIgMjFzNy02LjUgNy0xMmE3IDcgMCAxIDAtMTQgMGMwIDUuNSA3IDEyIDcgMTJaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSI5IiByPSIyLjUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz48L3N2Zz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8P3BocCBlY2hvIGh0bWxzcGVjaWFsY2hhcnMoJGxvYyk7ID8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8P3BocCBlbmRpZjsgPz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGlmICgkZW1haWwpOiA/PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImpvZS1hYm91dF9fbWV0YS1pdGVtIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3ZnIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjEyIiBoZWlnaHQ9IjEyIj48cGF0aCBkPSJNMyA3aDE4djEySDN6IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0ibTMgNyA5IDcgOS03IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PC9zdmc+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPD9waHAgZWNobyBodG1sc3BlY2lhbGNoYXJzKCRlbWFpbCk7ID8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8P3BocCBlbmRpZjsgPz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGlmICgkZ2l0aHViKTogPz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxhIGNsYXNzPSJqb2UtYWJvdXRfX21ldGEtaXRlbSIgaHJlZj0iPD9waHAgZWNobyBodG1sc3BlY2lhbGNoYXJzKCRnaXRodWIpOyA/PiIgdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9vcGVuZXIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMTIiIGhlaWdodD0iMTIiPjxwYXRoIGQ9Ik0xMiAyYTEwIDEwIDAgMCAwLTMuMiAxOS41Yy41LjEuNy0uMi43LS41di0yYy0yLjguNi0zLjQtMS4zLTMuNC0xLjMtLjUtMS4yLTEuMS0xLjUtMS4xLTEuNS0uOS0uNi4xLS42LjEtLjYgMSAuMSAxLjUgMSAxLjUgMSAuOSAxLjUgMi4zIDEuMSAyLjkuOC4xLS42LjMtMS4xLjYtMS40LTIuMi0uMy00LjYtMS4xLTQuNi01IDAtMS4xLjQtMiAxLTIuNy0uMS0uMy0uNS0xLjMuMS0yLjcgMCAwIC44LS4zIDIuOCAxYTkuNiA5LjYgMCAwIDEgNSAwYzItMS4zIDIuOC0xIDIuOC0xIC42IDEuNC4yIDIuNC4xIDIuNy42LjcgMSAxLjYgMSAyLjcgMCAzLjktMi40IDQuNy00LjYgNSAuNC4zLjcuOS43IDEuOHYyLjZjMCAuMy4yLjYuNy41QTEwIDEwIDAgMCAwIDEyIDJaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjYiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBHaXRIdWIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGVuZGlmOyA/PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPD9waHAgaWYgKCR3ZWlibyk6ID8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YSBjbGFzcz0iam9lLWFib3V0X19tZXRhLWl0ZW0iIGhyZWY9Ijw/cGhwIGVjaG8gaHRtbHNwZWNpYWxjaGFycygkd2VpYm8pOyA/PiIgdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9vcGVuZXIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMTIiIGhlaWdodD0iMTIiPjxwYXRoIGQ9Ik0xMC41IDE4Yy0zLjYgMC02LjUtMi4yLTYuNS01czIuOS01IDYuNS01YzMuNiAwIDYuNSAyLjIgNi41IDVzLTIuOSA1LTYuNSA1WiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0xOCA3YTIgMiAwIDEgMCAwLTQgMiAyIDAgMCAwIDAgNFptLTEuNSAyYTQgNCAwIDEgMCAwLTgiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOW+ruWNmgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPD9waHAgZW5kaWY7ID8+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICAgICAgICAgIDwhLS0g57uf6K6h5Y2h54mHIC0tPgogICAgICAgICAgICAgICAgPHNlY3Rpb24gY2xhc3M9ImpvZS1hYm91dF9fc2VjdGlvbiI+CiAgICAgICAgICAgICAgICAgICAgPGgzIGNsYXNzPSJqb2UtYWJvdXRfX3NlY3Rpb24tdGl0bGUiPjxzcGFuIGNsYXNzPSJqb2Utc2VjdGlvbl9fYmFyIj48L3NwYW4+5Y2a5a6i5pWw5o2uPC9oMz4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtaW5mby1ncmlkIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWluZm8tY2FyZCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtaW5mby1jYXJkX19pY29uIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3ZnIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4Ij48cGF0aCBkPSJNNCA1aDE2djE0SDR6IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTQgOWgxNk04IDV2MTQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz48L3N2Zz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWluZm8tY2FyZF9fdGl0bGUiPuaWh+eroOaVsOmHjzwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWluZm8tY2FyZF9fdmFsdWUiPjw/cGhwIGpvZV9hcnRpY2xlX2NvdW50KCk7ID8+PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtaW5mby1jYXJkIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImpvZS1pbmZvLWNhcmRfX2ljb24iPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiPjxwYXRoIGQ9Ik0yIDEyczQtNyAxMC03IDEwIDcgMTAgNy00IDctMTAgNy0xMC03LTEwLTdaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMyIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPjwvc3ZnPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtaW5mby1jYXJkX190aXRsZSI+5oC75rWP6KeI6YePPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtaW5mby1jYXJkX192YWx1ZSI+PD9waHAgJHMgPSBqb2Vfc2l0ZV9zdGF0cygpOyBlY2hvICRzWyd2aWV3cyddOyA/PjwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWluZm8tY2FyZCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtaW5mby1jYXJkX19pY29uIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3ZnIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4Ij48cGF0aCBkPSJNMjEgMTEuNWE4LjUgOC41IDAgMCAxLTEyLjUgNy41TDMgMjFsMi01LjVBOC41IDguNSAwIDEgMSAyMSAxMS41WiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtaW5mby1jYXJkX190aXRsZSI+6K+E6K665pWw6YePPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtaW5mby1jYXJkX192YWx1ZSI+PD9waHAgam9lX2NvbW1lbnRfY291bnQoKTsgPz48L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImpvZS1pbmZvLWNhcmQiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWluZm8tY2FyZF9faWNvbiI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iOSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0xMiA3djVsMyAyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWluZm8tY2FyZF9fdGl0bGUiPui/kOihjOWkqeaVsDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLWluZm8tY2FyZF9fdmFsdWUiPjw/cGhwIGVjaG8gam9lX3NpdGVfYWdlKCk7ID8+IOWkqTwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgICAgICAgICA8IS0tIOaKgOiDveadoSAtLT4KICAgICAgICAgICAgICAgIDxzZWN0aW9uIGNsYXNzPSJqb2UtYWJvdXRfX3NlY3Rpb24iPgogICAgICAgICAgICAgICAgICAgIDxoMyBjbGFzcz0iam9lLWFib3V0X19zZWN0aW9uLXRpdGxlIj48c3BhbiBjbGFzcz0iam9lLXNlY3Rpb25fX2JhciI+PC9zcGFuPuaKgOiDveagkTwvaDM+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLXNraWxscyI+CiAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGZvcmVhY2ggKCRza2lsbHMgYXMgJHMpOiA/PgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2Utc2tpbGwiIHN0eWxlPSItLXY6IDw/cGhwIGVjaG8gJHNbJ3ZhbHVlJ107ID8+JTsiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLXNraWxsX19oZWFkIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iam9lLXNraWxsX19uYW1lIj48P3BocCBlY2hvIGh0bWxzcGVjaWFsY2hhcnMoJHNbJ25hbWUnXSk7ID8+PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJqb2Utc2tpbGxfX3ZhbHVlIj48P3BocCBlY2hvICRzWyd2YWx1ZSddOyA/PiU8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImpvZS1za2lsbF9fYmFyIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2Utc2tpbGxfX2ZpbGwiPjwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8P3BocCBlbmRmb3JlYWNoOyA/PgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICAgICAgICAgIDwhLS0g5pe26Ze057q/IC0tPgogICAgICAgICAgICAgICAgPHNlY3Rpb24gY2xhc3M9ImpvZS1hYm91dF9fc2VjdGlvbiI+CiAgICAgICAgICAgICAgICAgICAgPGgzIGNsYXNzPSJqb2UtYWJvdXRfX3NlY3Rpb24tdGl0bGUiPjxzcGFuIGNsYXNzPSJqb2Utc2VjdGlvbl9fYmFyIj48L3NwYW4+5oiQ6ZW/6L2o6L+5PC9oMz4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtdGltZWxpbmUiPgogICAgICAgICAgICAgICAgICAgICAgICA8P3BocCBmb3JlYWNoICgkdGltZWxpbmUgYXMgJHQpOiA/PgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtdGltZWxpbmVfX2l0ZW0iPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLXRpbWVsaW5lX19kYXRlIj48P3BocCBlY2hvIGh0bWxzcGVjaWFsY2hhcnMoJHRbJ2RhdGUnXSk7ID8+PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtdGltZWxpbmVfX3RpdGxlIj48P3BocCBlY2hvIGh0bWxzcGVjaWFsY2hhcnMoJHRbJ3RpdGxlJ10pOyA/PjwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPD9waHAgaWYgKCR0WydkZXNjJ10pOiA/PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iam9lLXRpbWVsaW5lX19kZXNjIj48P3BocCBlY2hvIGh0bWxzcGVjaWFsY2hhcnMoJHRbJ2Rlc2MnXSk7ID8+PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8P3BocCBlbmRpZjsgPz4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGVuZGZvcmVhY2g7ID8+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgICAgICAgICAgPCEtLSDmraPmloflhoXlrrnvvIjnvJbovpHljLrlhpnnmoTlhoXlrrnvvIkgLS0+CiAgICAgICAgICAgICAgICA8c2VjdGlvbiBjbGFzcz0iam9lLWFib3V0X19zZWN0aW9uIj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJqb2UtYXJ0aWNsZV9fY29udGVudCBqb2UtY29udGVudCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDw/cGhwIGVjaG8gam9lX2FkZF9oZWFkaW5nX2lkcygkdGhpcy0+Y29udGVudCk7ID8+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgICAgICA8L2FydGljbGU+CgogICAgICAgICAgICA8IS0tIOivhOiuuuWMuiAtLT4KICAgICAgICAgICAgPD9waHAgJHRoaXMtPm5lZWQoJ2NvbW1lbnRzLnBocCcpOyA/PgogICAgICAgIDwvZGl2PgogICAgPC9kaXY+CjwvbWFpbj4KCjw/cGhwICR0aGlzLT5uZWVkKCdmb290ZXIucGhwJyk7ID8+Cg==
+<?php
+/**
+ * 关于页
+ *
+ * @package custom
+ */
+if (!defined('__TYPECHO_ROOT_DIR__')) exit;
+$this->need('header.php');
+
+// 自定义字段：nickname / sign / location / email / github / weibo / skills / timeline
+$nick  = $this->fields->nickname ? $this->fields->nickname : $this->user->screenName;
+$sign  = $this->fields->sign ? $this->fields->sign : '热爱生活，热爱代码。';
+$loc   = $this->fields->location ?: '';
+$email = $this->fields->email ?: '';
+$github= $this->fields->github ?: '';
+$weibo = $this->fields->weibo ?: '';
+$avatar= $this->fields->avatar ?: '';
+
+// skills 格式：PHP:90,JavaScript:80,HTML/CSS:95
+$skillsRaw = trim($this->fields->skills ?: '');
+$skills = [];
+if ($skillsRaw) {
+    foreach (explode(',', $skillsRaw) as $s) {
+        $parts = array_map('trim', explode(':', $s));
+        if (count($parts) === 2 && is_numeric($parts[1])) {
+            $skills[] = ['name' => $parts[0], 'value' => min(100, max(0, (int)$parts[1]))];
+        }
+    }
+}
+if (empty($skills)) {
+    $skills = [
+        ['name' => 'PHP',       'value' => 85],
+        ['name' => 'JavaScript','value' => 80],
+        ['name' => 'HTML / CSS','value' => 90],
+        ['name' => 'MySQL',     'value' => 75],
+        ['name' => 'Typecho',   'value' => 95],
+    ];
+}
+
+// timeline 格式：2023-01-01|标题|描述;...
+$timelineRaw = trim($this->fields->timeline ?: '');
+$timeline = [];
+if ($timelineRaw) {
+    foreach (explode(';', $timelineRaw) as $t) {
+        $parts = array_map('trim', explode('|', $t));
+        if (count($parts) >= 2) {
+            $timeline[] = [
+                'date'  => $parts[0],
+                'title' => $parts[1],
+                'desc'  => isset($parts[2]) ? $parts[2] : '',
+            ];
+        }
+    }
+}
+if (empty($timeline)) {
+    $timeline = [
+        ['date' => '2020', 'title' => '开始写博客', 'desc' => '用 Typecho 搭建了第一个博客，记录学习与生活。'],
+        ['date' => '2022', 'title' => '转向前端开发', 'desc' => '从后端到全栈，开始接触 Vue / React 等现代前端框架。'],
+        ['date' => '2024', 'title' => '持续学习', 'desc' => '保持对新技术的好奇心，努力成为更好的工程师。'],
+    ];
+}
+?>
+
+<main class="joe-container" id="main">
+    <div class="joe-main__wrap joe-main__wrap--single">
+        <div class="joe-main joe-main--single">
+            <article class="joe-article joe-about">
+                <!-- 面包屑 -->
+                <nav class="joe-breadcrumb">
+                    <a href="<?php $this->options->siteUrl(); ?>">首页</a>
+                    <span class="joe-breadcrumb__sep">/</span>
+                    <span class="joe-breadcrumb__current"><?php $this->title(); ?></span>
+                </nav>
+
+                <!-- 个人信息 -->
+                <section class="joe-about__hero">
+                    <div class="joe-about__avatar">
+                        <?php if ($avatar): ?>
+                            <img src="<?php echo htmlspecialchars($avatar); ?>" alt="<?php echo htmlspecialchars($nick); ?>" loading="lazy">
+                        <?php else: ?>
+                            <?php echo mb_substr($nick, 0, 1); ?>
+                        <?php endif; ?>
+                    </div>
+                    <div class="joe-about__info">
+                        <h2 class="joe-about__name"><?php echo htmlspecialchars($nick); ?></h2>
+                        <p class="joe-about__desc"><?php echo htmlspecialchars($sign); ?></p>
+                        <div class="joe-about__meta">
+                            <?php if ($loc): ?>
+                            <span class="joe-about__meta-item">
+                                <svg viewBox="0 0 24 24" width="12" height="12"><path d="M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12Z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/><circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+                                <?php echo htmlspecialchars($loc); ?>
+                            </span>
+                            <?php endif; ?>
+                            <?php if ($email): ?>
+                            <span class="joe-about__meta-item">
+                                <svg viewBox="0 0 24 24" width="12" height="12"><path d="M3 7h18v12H3z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/><path d="m3 7 9 7 9-7" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
+                                <?php echo htmlspecialchars($email); ?>
+                            </span>
+                            <?php endif; ?>
+                            <?php if ($github): ?>
+                            <a class="joe-about__meta-item" href="<?php echo htmlspecialchars($github); ?>" target="_blank" rel="noopener">
+                                <svg viewBox="0 0 24 24" width="12" height="12"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-2c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.5-1.3.1-2.7 0 0 .8-.3 2.8 1a9.6 9.6 0 0 1 5 0c2-1.3 2.8-1 2.8-1 .6 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.8v2.6c0 .3.2.6.7.5A10 10 0 0 0 12 2Z" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round"/></svg>
+                                GitHub
+                            </a>
+                            <?php endif; ?>
+                            <?php if ($weibo): ?>
+                            <a class="joe-about__meta-item" href="<?php echo htmlspecialchars($weibo); ?>" target="_blank" rel="noopener">
+                                <svg viewBox="0 0 24 24" width="12" height="12"><path d="M10.5 18c-3.6 0-6.5-2.2-6.5-5s2.9-5 6.5-5c3.6 0 6.5 2.2 6.5 5s-2.9 5-6.5 5Z" stroke="currentColor" stroke-width="2" fill="none"/><path d="M18 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm-1.5 2a4 4 0 1 0 0-8" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+                                微博
+                            </a>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 统计卡片 -->
+                <section class="joe-about__section">
+                    <h3 class="joe-about__section-title"><span class="joe-section__bar"></span>博客数据</h3>
+                    <div class="joe-info-grid">
+                        <div class="joe-info-card">
+                            <div class="joe-info-card__icon">
+                                <svg viewBox="0 0 24 24" width="18" height="18"><path d="M4 5h16v14H4z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/><path d="M4 9h16M8 5v14" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+                            </div>
+                            <div class="joe-info-card__title">文章数量</div>
+                            <div class="joe-info-card__value"><?php joe_article_count(); ?></div>
+                        </div>
+                        <div class="joe-info-card">
+                            <div class="joe-info-card__icon">
+                                <svg viewBox="0 0 24 24" width="18" height="18"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7Z" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+                            </div>
+                            <div class="joe-info-card__title">总浏览量</div>
+                            <div class="joe-info-card__value"><?php $s = joe_site_stats(); echo $s['views']; ?></div>
+                        </div>
+                        <div class="joe-info-card">
+                            <div class="joe-info-card__icon">
+                                <svg viewBox="0 0 24 24" width="18" height="18"><path d="M21 11.5a8.5 8.5 0 0 1-12.5 7.5L3 21l2-5.5A8.5 8.5 0 1 1 21 11.5Z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
+                            </div>
+                            <div class="joe-info-card__title">评论数量</div>
+                            <div class="joe-info-card__value"><?php joe_comment_count(); ?></div>
+                        </div>
+                        <div class="joe-info-card">
+                            <div class="joe-info-card__icon">
+                                <svg viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" fill="none"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+                            </div>
+                            <div class="joe-info-card__title">运行天数</div>
+                            <div class="joe-info-card__value"><?php echo joe_site_age(); ?> 天</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 技能条 -->
+                <section class="joe-about__section">
+                    <h3 class="joe-about__section-title"><span class="joe-section__bar"></span>技能树</h3>
+                    <div class="joe-skills">
+                        <?php foreach ($skills as $s): ?>
+                        <div class="joe-skill" style="--v: <?php echo $s['value']; ?>%;">
+                            <div class="joe-skill__head">
+                                <span class="joe-skill__name"><?php echo htmlspecialchars($s['name']); ?></span>
+                                <span class="joe-skill__value"><?php echo $s['value']; ?>%</span>
+                            </div>
+                            <div class="joe-skill__bar">
+                                <div class="joe-skill__fill"></div>
+                            </div>
+                        </div>
+                        <?php endforeach; ?>
+                    </div>
+                </section>
+
+                <!-- 时间线 -->
+                <section class="joe-about__section">
+                    <h3 class="joe-about__section-title"><span class="joe-section__bar"></span>成长轨迹</h3>
+                    <div class="joe-timeline">
+                        <?php foreach ($timeline as $t): ?>
+                        <div class="joe-timeline__item">
+                            <div class="joe-timeline__date"><?php echo htmlspecialchars($t['date']); ?></div>
+                            <div class="joe-timeline__title"><?php echo htmlspecialchars($t['title']); ?></div>
+                            <?php if ($t['desc']): ?>
+                            <div class="joe-timeline__desc"><?php echo htmlspecialchars($t['desc']); ?></div>
+                            <?php endif; ?>
+                        </div>
+                        <?php endforeach; ?>
+                    </div>
+                </section>
+
+                <!-- 正文内容（编辑区写的内容） -->
+                <section class="joe-about__section">
+                    <div class="joe-article__content joe-content">
+                        <?php echo joe_add_heading_ids($this->content); ?>
+                    </div>
+                </section>
+
+            </article>
+
+            <!-- 评论区 -->
+            <?php $this->need('comments.php'); ?>
+        </div>
+    </div>
+</main>
+
+<?php $this->need('footer.php'); ?>
