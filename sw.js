@@ -1,5 +1,5 @@
 /**
- * KingJoe Service Worker — 离线缓存
+ * KingJoe Service Worker
  */
 const CACHE_NAME = 'kingjoe-v1.0.7';
 
@@ -15,11 +15,7 @@ self.addEventListener('install', function (e) {
 self.addEventListener('activate', function (e) {
     e.waitUntil(
         caches.keys().then(function (keys) {
-            return Promise.all(keys.filter(function (key) {
-                return key !== CACHE_NAME;
-            }).map(function (key) {
-                return caches.delete(key);
-            }));
+            return Promise.all(keys.filter(function (k) { return k !== CACHE_NAME; }).map(function (k) { return caches.delete(k); }));
         })
     );
     self.clients.claim();
@@ -32,15 +28,11 @@ self.addEventListener('fetch', function (e) {
         fetch(e.request).then(function (response) {
             if (response && response.status === 200) {
                 var clone = response.clone();
-                caches.open(CACHE_NAME).then(function (cache) {
-                    cache.put(e.request, clone);
-                });
+                caches.open(CACHE_NAME).then(function (c) { c.put(e.request, clone); });
             }
             return response;
         }).catch(function () {
-            return caches.match(e.request).then(function (cached) {
-                return cached || new Response('Offline', { status: 503 });
-            });
+            return caches.match(e.request).then(function (c) { return c || new Response('Offline', { status: 503 }); });
         })
     );
 });
