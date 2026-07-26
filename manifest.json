@@ -1,10 +1,16 @@
 {
-    "name": "<?php $this->options->title(); ?>",
-    "short_name": "<?php $this->options->title(); ?>",
-    "description": "<?php echo joe_esc($this->options->description); ?>",
+    "name": "KingJoe Blog",
+    "short_name": "Blog",
+    "description": "A modern Typecho blog",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#f4f5f7",
     "theme_color": "#4990e2",
-    "icons": []
+    "icons": [
+        {
+            "src": "/favicon.ico",
+            "sizes": "64x64",
+            "type": "image/x-icon"
+        }
+    ]
 }

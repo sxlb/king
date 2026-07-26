@@ -2,15 +2,11 @@
  * KingJoe Service Worker — 离线缓存
  */
 const CACHE_NAME = 'kingjoe-v1.0.7';
-const ASSETS = [
-    '/',
-    '/?format=json',
-];
 
 self.addEventListener('install', function (e) {
     e.waitUntil(
         caches.open(CACHE_NAME).then(function (cache) {
-            return cache.addAll(ASSETS);
+            return cache.addAll(['/', '/?format=json']).catch(function () {});
         })
     );
     self.skipWaiting();
@@ -19,8 +15,10 @@ self.addEventListener('install', function (e) {
 self.addEventListener('activate', function (e) {
     e.waitUntil(
         caches.keys().then(function (keys) {
-            return Promise.all(keys.map(function (key) {
-                if (key !== CACHE_NAME) return caches.delete(key);
+            return Promise.all(keys.filter(function (key) {
+                return key !== CACHE_NAME;
+            }).map(function (key) {
+                return caches.delete(key);
             }));
         })
     );
@@ -28,25 +26,21 @@ self.addEventListener('activate', function (e) {
 });
 
 self.addEventListener('fetch', function (e) {
-    // 只缓存 GET 请求
     if (e.request.method !== 'GET') return;
-    // 跳过管理后台
     if (e.request.url.includes('/admin/')) return;
-    
     e.respondWith(
-        caches.match(e.request).then(function (cached) {
-            var fetched = fetch(e.request).then(function (response) {
-                if (response && response.status === 200) {
-                    var clone = response.clone();
-                    caches.open(CACHE_NAME).then(function (cache) {
-                        cache.put(e.request, clone);
-                    });
-                }
-                return response;
-            }).catch(function () {
+        fetch(e.request).then(function (response) {
+            if (response && response.status === 200) {
+                var clone = response.clone();
+                caches.open(CACHE_NAME).then(function (cache) {
+                    cache.put(e.request, clone);
+                });
+            }
+            return response;
+        }).catch(function () {
+            return caches.match(e.request).then(function (cached) {
                 return cached || new Response('Offline', { status: 503 });
             });
-            return cached || fetched;
         })
     );
 });
