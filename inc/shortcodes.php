@@ -371,9 +371,9 @@ function joe_mermaid_shortcode($content)
     return preg_replace_callback(
         '/\[mermaid\](.*?)\[\/mermaid\]/is',
         function ($m) {
-            $code = htmlspecialchars_decode(trim($m[1]));
+            $code = trim($m[1]);
             $id = 'mermaid_' . substr(md5($code), 0, 8);
-            return '<div class="joe-mermaid"><div class="mermaid" id="' . $id . '">' . $code . '</div></div>';
+            return '<div class="joe-mermaid"><div class="mermaid" id="' . $id . '">' . htmlspecialchars($code) . '</div></div>';
         },
         $content
     );

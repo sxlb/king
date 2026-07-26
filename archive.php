@@ -82,32 +82,46 @@ foreach ($allCells as $cell):
 </div></div>
 <?php endif; ?>
 
-<?php if ($this->have()): ?>
-<?php
-$currentYear = '';
-while ($this->next()):
-    $year = date('Y', $this->created);
-    if ($year != $currentYear):
-        if ($currentYear !== ''): ?></div></div>
-<?php endif;
-        $currentYear = $year; ?>
-<div class="joe-archive-year"><h2 class="joe-archive-year__title"><?php echo $currentYear; ?></h2><div class="joe-archive-year__list">
-<?php endif; ?>
-<article class="joe-archive-item">
-<time class="joe-archive-item__date" datetime="<?php $this->date('c'); ?>"><?php $this->date('m/d'); ?></time>
-<a class="joe-archive-item__link" href="<?php $this->permalink(); ?>"><?php $this->title(); ?></a>
-<span class="joe-archive-item__cat"><?php $this->category(',', false); ?></span>
-</article>
-<?php endwhile; ?>
-</div></div>
-<?php $totalPage = method_exists($this, 'getTotalPage') ? $this->getTotalPage() : ($this->parameter->pageSize ?? 0); ?>
-<?php $curPage = method_exists($this, 'getCurrentPage') ? $this->getCurrentPage() : $this->_currentPage; ?>
-<?php if ($curPage < $totalPage): ?>
-<div class="joe-pagination"><?php $this->pageLink('查看更多', 'next'); ?></div>
-<?php endif; ?>
-<?php elseif ($keyword): ?>
-<div class="joe-card" style="text-align:center;padding:40px"><p style="color:var(--text-muted)">没有找到相关内容，换个关键词试试？</p></div>
-<?php endif; ?>
-</div><?php $this->need('sidebar.php'); ?></div>
+            <!-- 时间轴文章列表 -->
+            <?php if ($this->have()): ?>
+            <?php 
+            $currentYear = '';
+            while ($this->next()):
+                $year = date('Y', $this->created);
+                if ($year != $currentYear):
+                    if ($currentYear !== ''): ?>
+                </div></div>
+                    <?php endif;
+                    $currentYear = $year;
+            ?>
+            <div class="joe-archive-year">
+                <h2 class="joe-archive-year__title"><?php echo $currentYear; ?></h2>
+                <div class="joe-archive-year__list">
+            <?php endif; ?>
+                    <article class="joe-archive-item">
+                        <time class="joe-archive-item__date" datetime="<?php $this->date('c'); ?>"><?php $this->date('m/d'); ?></time>
+                        <a class="joe-archive-item__link" href="<?php $this->permalink(); ?>"><?php $this->title(); ?></a>
+                        <span class="joe-archive-item__cat"><?php $this->category(',', false); ?></span>
+                    </article>
+            <?php endwhile; ?>
+                </div>
+            </div>
+
+            <?php $totalPage = method_exists($this, 'getTotalPage') ? $this->getTotalPage() : ($this->parameter->pageSize ?? 0); ?>
+            <?php $curPage = method_exists($this, 'getCurrentPage') ? $this->getCurrentPage() : $this->_currentPage; ?>
+            <?php if ($curPage < $totalPage): ?>
+            <div class="joe-pagination">
+                <?php $this->pageLink('查看更多', 'next'); ?>
+            </div>
+            <?php endif; ?>
+
+            <?php elseif ($keyword): ?>
+            <div class="joe-card" style="text-align:center;padding:40px;">
+                <p style="color:var(--text-muted);">没有找到相关内容，换个关键词试试？</p>
+            </div>
+            <?php endif; ?>
+        </div>
+        <?php $this->need('sidebar.php'); ?>
+    </div>
 </main>
 <?php $this->need('footer.php'); ?>

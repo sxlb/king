@@ -675,14 +675,9 @@ function themeConfig($form)
     $sslIcon = new Typecho_Widget_Helper_Form_Element_Textarea('sslIcon', null, '', _t('SSL认证图标'), _t('页脚显示的安全认证图标HTML代码，如 TrustAsia/沃通等'));
     $form->addInput($sslIcon);
 
-    $form->addInput([
-        'name' => 'updateCheck',
-        'type' => 'radio',
-        'label' => '自动检测更新',
-        'description' => '每12小时从GitHub检测主题新版本',
-        'default' => '1',
-        'options' => ['1' => '启用', '0' => '关闭'],
-    ]);
+    // ---- PWA主题色 ----
+    $themeColor = new Typecho_Widget_Helper_Form_Element_Text('themeColor', null, '#4990e2', _t('PWA主题色'), _t('PWA Manifest 和浏览器主题色，默认 #4990e2'));
+    $form->addInput($themeColor);
 
     // 显示更新检测结果
     if (joe_get('updateCheck') === '1' && function_exists('joe_check_update')) {

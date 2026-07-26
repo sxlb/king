@@ -204,7 +204,24 @@
 <?php endif; ?>
 <?php if (joe_get('mermaidEnable') === '1'): ?>
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({ startOnLoad: true, theme: document.body.classList.contains('is-dark') ? 'dark' : 'default' });</script>
+<script>
+(function() {
+    var theme = document.body.classList.contains('is-dark') ? 'dark' : 'default';
+    mermaid.initialize({ startOnLoad: true, theme: theme });
+    // 监听暗黑模式切换
+    var observer = new MutationObserver(function() {
+        var newTheme = document.body.classList.contains('is-dark') ? 'dark' : 'default';
+        mermaid.initialize({ startOnLoad: true, theme: newTheme });
+        document.querySelectorAll('.mermaid').forEach(function(el) {
+            if (el.getAttribute('data-processed')) {
+                el.removeAttribute('data-processed');
+            }
+        });
+        setTimeout(function() { mermaid.contentLoaded(); }, 100);
+    });
+    observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+})();
+</script>
 <?php endif; ?>
 <?php if (joe_get('analyticsCode')): ?>
 <!-- 统计代码 -->

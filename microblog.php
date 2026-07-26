@@ -34,7 +34,9 @@
                 <?php endwhile; ?>
             </div>
             <?php if ($this->_currentPage < $this->getTotalPage()): ?>
-            <div class="joe-microblog-more" id="joe-microblog-more"><button class="joe-btn joe-btn--outline" data-page="<?php echo $this->_currentPage + 1; ?>">加载更多</button></div>
+            <div class="joe-microblog-more" id="joe-microblog-more">
+                <button class="joe-btn joe-btn--outline" data-next="<?php $this->pageLink('next', '下一页'); ?>" data-page="<?php echo $this->_currentPage + 1; ?>">加载更多</button>
+            </div>
             <?php endif; ?>
             <?php else: ?>
             <div class="joe-card" style="text-align:center;padding:60px 20px"><div style="font-size:48px;margin-bottom:16px;opacity:.4">🐦</div><p style="color:var(--text-muted)">还没有推文，去后台创建一篇分类为「<?php echo htmlspecialchars($microblogCat); ?>」的文章吧</p></div>
